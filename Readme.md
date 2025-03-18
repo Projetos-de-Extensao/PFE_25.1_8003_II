@@ -15,7 +15,7 @@ Esse repositório é para ser utilizado pelos grupos como um template inicial, d
 |Matrícula | Aluno |
 | -- | -- |
 | 202408320965  |  Rafael Paraquett Albuquerque Leitão |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
+| 202408320957 |  Luis Cesar Dantas Caricchio Costa |
 
 ## Sobre 
 Descreva o seu projeto em linhas gerais. 
