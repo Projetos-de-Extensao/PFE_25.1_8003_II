@@ -14,7 +14,7 @@ Esse repositório é para ser utilizado pelos grupos como um template inicial, d
 ## Alunos
 |Matrícula | Aluno |
 | -- | -- |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
+| xx/xxxxxx  |  Rafael Paraquett Albuquerque Leitão |
 | xx/xxxxxx  |  xxxx xxxx xxxxx |
 
 ## Sobre 
