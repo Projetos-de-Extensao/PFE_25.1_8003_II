@@ -1,19 +1,12 @@
-# RepositorioTemplate
-Esse repositório é para ser utilizado pelos grupos como um template inicial, da home page do Projeto.
-**!! Atenção: Renomeie o seu repositório para (Ano.Semestre)_(Grupo)_(NomeDoProjeto). !!** 
-
-**!! *Não coloque os nomes dos alunos no título do repositório*. Exemplo de título correto: 2024.1_PFE1_ProjetoPandora!!**
+PFE_25.1_8003_II
  
- (Apague essa seção)
- 
-# NomedoProjeto
 
-**Número do Grupo**: XX <br>
-**Código da Disciplina**: FGA0208-T01<br>
+**Número do Grupo**: II <br>
+**Código da Disciplina**: <br>
 
 ## Alunos
-|Matrícula | Aluno |
-| -- | -- |
+
+| 202408320931 |  Roberto Ramos Pereira |
 | 202408320965  |  Rafael Paraquett Albuquerque Leitão |
 | 202408320957 |  Luis Cesar Dantas Caricchio Costa |
 
