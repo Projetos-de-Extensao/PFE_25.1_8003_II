@@ -5,12 +5,12 @@ title: Brainstorm
  
 ## Introdução
 <p align = "justify">
-O brainstorm é uma técnica de elicitação de requisitos que consiste em reunir a equipe e discutir sobre diversos tópicos gerais do projeto apresentados no documento problema de negócio. No brainstorm o diálogo é incentivado e críticas são evitadas para permitir que todos colaborem com suas próprias ideias.
+O brainstorm é uma técnica usada para levantar requisitos, que envolve reunir a equipe para discutir vários aspectos gerais do projeto apresentados no documento do problema de negócios. Durante o brainstorm, o diálogo é estimulado e as críticas são evitadas, permitindo que todos contribuam com suas próprias ideias.
 </p>
  
 ## Metodologia
 <p align = "justify">
-A equipe se reuniu para debater ideias gerais sobre o projeto via..., começou .... e terminou..., onde o XXXX XXXX foi o moderador, direcionando a equipe com questões pré-elaboradas, e transcrevendo as respostas para o documento.
+A equipe se reuniu para debater ideias gerais sobre um projeto de um site de eventos, começou com muitas ideias e terminou com um objetivo traçado com o nome do site sendo definido de Festify onde o John Carvalho foi o moderador, direcionando a equipe com questões pré-elaboradas, e transcrevendo as respostas para o documento.
 </p>
  
 ## Brainstorm
@@ -22,16 +22,18 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via..., começou .
 ### 1. Qual o objetivo principal da aplicação?
  
 <p align = "justify">
-<b>XXXX</b> - Deve ser uma plataforma onde qualquer pessoa possa...
+<b>XXXX</b> - Deve ser uma plataforma onde qualquer pessoa possa comprar ingressos para diversos eventos, sendo festas e shows 
+
 </p>
  
-<b>ZZZ</b> - A plataforma deve fornece...
+<b>ZZZ</b> - A plataforma deve fornece a venda de ingressos para shows e festas em todo o Brasil
+
  
-<b>YYYY</b> - O objetivo da aplicação é....
+<b>YYYY</b> - O objetivo da aplicação é proporcionar a melhor experiência ao usuário 
  
-<b>WWWW</b> - O principal objetivo da aplicação é a...
+<b>WWWW</b> - O principal objetivo da aplicação é a maior simplicidade possível para o usuário procurar e comprar o que deseja
  
-<b>KKKK</b> - A plataforma deve gerenciar...
+<b>KKKK</b> - A plataforma deve gerenciar diversos aspectos relacionados à organização e promoção de eventos
 </p>
  
 ---
