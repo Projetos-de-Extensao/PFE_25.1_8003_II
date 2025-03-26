@@ -22,18 +22,18 @@ A equipe se reuniu para debater ideias gerais sobre um projeto de um site de eve
 ### 1. Qual o objetivo principal da aplicação?
  
 <p align = "justify">
-<b>XXXX</b> - Deve ser uma plataforma onde qualquer pessoa possa comprar ingressos para diversos eventos, sendo festas e shows 
+<b>XXXX</b> - Deve ser uma plataforma onde qualquer pessoa possa comprar ingressos para diversos eventos, sendo festas e shows. 
 
 </p>
  
-<b>ZZZ</b> - A plataforma deve fornece a venda de ingressos para shows e festas em todo o Brasil
+<b>ZZZ</b> - A plataforma deve fornecer a venda de ingressos para shows e festas em todo o Brasil.
 
  
-<b>YYYY</b> - O objetivo da aplicação é proporcionar a melhor experiência ao usuário 
+<b>YYYY</b> - O objetivo da aplicação é proporcionar a melhor experiência ao usuário.
  
-<b>WWWW</b> - O principal objetivo da aplicação é a maior simplicidade possível para o usuário procurar e comprar o que deseja
+<b>WWWW</b> - O principal objetivo da aplicação é a maior simplicidade possível para o usuário procurar e comprar o que deseja.
  
-<b>KKKK</b> - A plataforma deve gerenciar diversos aspectos relacionados à organização e promoção de eventos
+<b>KKKK</b> - A plataforma deve gerenciar diversos aspectos relacionados à organização e promoção de eventos.
 </p>
  
 ---
