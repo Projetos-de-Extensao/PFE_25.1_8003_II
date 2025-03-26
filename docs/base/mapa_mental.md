@@ -1,6 +1,6 @@
 ---
-id: mapa_mental
-title: Mapas Mentais
+
+Title: Mapas Mentais
 ---
  
 ## Introdução

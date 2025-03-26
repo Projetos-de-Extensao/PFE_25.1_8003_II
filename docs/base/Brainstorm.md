@@ -13,7 +13,6 @@ O brainstorm é uma técnica usada para levantar requisitos, que envolve reunir 
 A equipe se reuniu para debater ideias gerais sobre um projeto de um site de eventos, começou com muitas ideias e terminou com um objetivo traçado com o nome do site sendo definido de Festify onde o John Carvalho foi o moderador, direcionando a equipe com questões pré-elaboradas, e transcrevendo as respostas para o documento.
 </p>
  
-## Brainstorm
  
 ## Versão 1.0
  
