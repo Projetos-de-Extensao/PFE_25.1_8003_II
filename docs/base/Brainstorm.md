@@ -1,6 +1,6 @@
 ---
-id: brainstorm
-title: Brainstorm
+
+Title: Brainstorm
 ---
  
 ## Introdução
@@ -22,18 +22,18 @@ A equipe se reuniu para debater ideias gerais sobre um projeto de um site de eve
 ### 1. Qual o objetivo principal da aplicação?
  
 <p align = "justify">
-<b>XXXX</b> - Deve ser uma plataforma onde qualquer pessoa possa comprar ingressos para diversos eventos, sendo festas e shows. 
+<b></b> - Deve ser uma plataforma onde qualquer pessoa possa comprar ingressos para diversos eventos, sendo festas e shows. 
 
 </p>
  
-<b>ZZZ</b> - A plataforma deve fornecer a venda de ingressos para shows e festas em todo o Brasil.
+<b></b> - A plataforma deve fornecer a venda de ingressos para shows e festas em todo o Brasil.
 
  
-<b>YYYY</b> - O objetivo da aplicação é proporcionar a melhor experiência ao usuário.
+<b></b> - O objetivo da aplicação é proporcionar a melhor experiência ao usuário.
  
-<b>WWWW</b> - O principal objetivo da aplicação é a maior simplicidade possível para o usuário procurar e comprar o que deseja.
+<b></b> - O principal objetivo da aplicação é a maior simplicidade possível para o usuário procurar e comprar o que deseja.
  
-<b>KKKK</b> - A plataforma deve gerenciar diversos aspectos relacionados à organização e promoção de eventos.
+<b></b> - A plataforma deve gerenciar diversos aspectos relacionados à organização e promoção de eventos.
 </p>
  
 ---
@@ -41,31 +41,31 @@ A equipe se reuniu para debater ideias gerais sobre um projeto de um site de eve
 ### 2. Como será o processo para cadastrar um novo clientetorneio?
  
 <p align = "justify">
-<b>XXXX</b> - O moderador deverá fazer login e...
+<b></b> - O moderador deverá fazer login e...
  
-<b>YYYY</b> - O cliente...
+<b></b> - O cliente...
  
-<b>WWWW</b> - Com o usuário logado, ele deverá...
+<b></b> - Com o usuário logado, ele deverá...
 
-<b>ZZZZ</b> - O cliente...
+<b></b> - O cliente...
 
-<b>KKK</b> - O cliente...
+<b></b> - O cliente...
  
 ---
  
 ### 3. Como será a forma de adicionar produtos?
  
 <p align = "justify">
-<b>XXXX</b> - O cliente ao cadastrar...
+<b></b> - O cliente ao cadastrar...
 </p>
  
 <p align = "justify">
-<b>YYYYY</b> - O produto tem...
+<b></b> - O produto tem...
 </p>
  
-<b>ZZZZ</b> - O produto....
+<b></b> - O produto....
  
-<b>XXXX</b> - O produto....
+<b></b> - O produto....
 
  
 ---
@@ -73,26 +73,26 @@ A equipe se reuniu para debater ideias gerais sobre um projeto de um site de eve
 ### 4. Outras perguntas pertinentes ao contexto
 
 <p align = "justify">
-<b>XXXX</b> - Com a localização...
+<b></b> - Com a localização...
  
-<b>YYYY</b> - O cliente...
+<b></b> - O cliente...
  
-<b>ZZZ</b> - O cliente...
+<b></b> - O cliente...
  
 ---
  
 ### 5. "Outras perguntas pertinentes ao contexto", Como seria a forma de adicionar do cliente adicionar os produtos ?
 <p align = "justify">
-<b>XXX</b> - O cliente....
+<b></b> - O cliente....
 </p>
  
 ### 6. Quais informações seriam interessante para o cliente?
 <p align = "justify">
-   <b>XXX</b> - Informações...
+   <b></b> - Informações...
    
-   <b>ZZZZ</b> - O cliente usuário poderá acessar informações...
+   <b></b> - O cliente usuário poderá acessar informações...
 
-   <b>WWWWs</b> - O usuário poderá ver scouts de partidas do torneio, ver as regras dos torneios, locais e data das partidas.
+   <b></b> - O usuário poderá ver scouts de partidas do torneio, ver as regras dos torneios, locais e data das partidas.
    
 </p>
  
