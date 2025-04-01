@@ -5,41 +5,41 @@ title: Documento de Visão
 ## Introdução
 
 <p align = "justify">
-O propósito deste documento é fornecer uma visão geral sobre o projeto que será realizado na disciplina Arquitetura e Desenho de Software 2020/1, na Universidade de Brasília. Sendo assim, Nesse documento serão descritas de maneira resumida as principais funcionalidades, usabilidades, o problema que será abordado e os objetivos da equipe.
+O propósito deste documento é fornecer uma visão geral sobre o projeto que será realizado na disciplina Projeto Front-End 2025.1, na Faculdade IBMEC Rio. Sendo assim, Nesse documento serão descritas de maneira resumida as principais funcionalidades, usabilidades, o tema que será abordado e os objetivos da equipe.
 </p>
 
-## Descrição do Problema 
+## Descrição do Problema
 
 <p align = "justify">
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+O problema será desenvolver um site para a compra e venda de ingressos, com foco em shows e festas, dentro do prazo de entrega. Com o objetivo principal do projeto de facilitar a divulgação e a acessibilidade aos eventos para os usuários.  
 </p>
 
 ### Problema
 
-Dificuldade em gerenciar e organizar...
+Dificuldade em gerenciar e organizar a entrega de ingressos dentro do prazo.
 
 ### Impactados
 
-Usuários....
+Usuários que queiram comprar ingressos para shows e festas.
 
 ### Consequência
 
-A criação de novos....
+A criação de novos métodos agéis para entrega de ingressos.
 
 ### Solução
 
-Utilizar a aplicação que será desenvolvida visando resolver...
+Utilizar a aplicação que será desenvolvida visando entregar os ingressos dentro do prazo.
 
 ## Objetivos
 
 <p align = "justify">
-O objetivo da equipe de desenvolvimento é fornecer...
+O objetivo da equipe de desenvolvimento é fornecer criar um site acessível para qualquer pessoa.
 </p>
 
 ## Descrição do Usuário 
 
 <p align = "justify">
-Os usuários serão....
+Os usuários serão consumidores de shows e festas.
 </p>
 
 ## Recursos do produto
@@ -47,31 +47,31 @@ Os usuários serão....
 ### Conta
 
 <p align = "justify">
-O cliente poderá realizar seu cadastro....
+O cliente poderá realizar seu cadastro por meio do site.
 </p>
 
-### Loja
+### Site
 
 <p align = "justify">
-O cliente poderá cadastrar uma loja única....
+O cliente poderá comprar apenas dois ingressos por conta.
 </p>
 
 ### Produto
 
 <p align = "justify">
-O cliente poderá cadastrar....
+O cliente poderá cadastrar realizar a compra de ingressos.
 </p>
 
-### Pesquisa sobre Lojas
+### Pesquisa sobre Shows e festas
 
 <p align = "justify">
-O cliente poderá pesquisar...
+O cliente poderá pesquisar shows e festas.
 </p>
 
 ## Restrições
 
 <p align = "justify">
-A aplicação não será responsável...
+A aplicação não será responsável reembolso de ingressos no dia do evento.
 </p>
 
 ## Referências Bibliográficas
