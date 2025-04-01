@@ -16,30 +16,30 @@ O problema será desenvolver um site para a compra e venda de ingressos, com foc
 
 ### Problema
 
-Dificuldade em gerenciar e organizar...
+Dificuldade em gerenciar e organizar a entrega de ingressos dentro do prazo.
 
 ### Impactados
 
-Usuários....
+Usuários que queiram comprar ingressos para shows e festas.
 
 ### Consequência
 
-A criação de novos....
+A criação de novos métodos agéis para entrega de ingressos.
 
 ### Solução
 
-Utilizar a aplicação que será desenvolvida visando resolver...
+Utilizar a aplicação que será desenvolvida visando entregar os ingressos dentro do prazo.
 
 ## Objetivos
 
 <p align = "justify">
-O objetivo da equipe de desenvolvimento é fornecer...
+O objetivo da equipe de desenvolvimento é fornecer criar um site acessível para qualquer pessoa.
 </p>
 
 ## Descrição do Usuário 
 
 <p align = "justify">
-Os usuários serão....
+Os usuários serão consumidores de shows e festas.
 </p>
 
 ## Recursos do produto
@@ -47,31 +47,31 @@ Os usuários serão....
 ### Conta
 
 <p align = "justify">
-O cliente poderá realizar seu cadastro....
+O cliente poderá realizar seu cadastro por meio do site.
 </p>
 
-### Loja
+### Site
 
 <p align = "justify">
-O cliente poderá cadastrar uma loja única....
+O cliente poderá comprar apenas dois ingressos por conta.
 </p>
 
 ### Produto
 
 <p align = "justify">
-O cliente poderá cadastrar....
+O cliente poderá cadastrar realizar a compra de ingressos.
 </p>
 
-### Pesquisa sobre Lojas
+### Pesquisa sobre Shows e festas
 
 <p align = "justify">
-O cliente poderá pesquisar...
+O cliente poderá pesquisar shows e festas.
 </p>
 
 ## Restrições
 
 <p align = "justify">
-A aplicação não será responsável...
+A aplicação não será responsável reembolso de ingressos no dia do evento.
 </p>
 
 ## Referências Bibliográficas
