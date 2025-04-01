@@ -12,7 +12,7 @@ Mapa mental consiste em criar resumos cheios de símbolos, cores, setas e frases
 ## Metodologia
  
 <p align = "justify">
-Foi levantado um ponto importante sobre o app e, assim, foi produzido o mapa mental. O documento foi produzido utilizando a ferramenta PlantUML.
+Um ponto importante sobre o aplicativo foi levantado, e, a partir disso, desenvolvemos um mapa mental para organizar as ideias. Utilizamos a ferramenta PlantUML para estruturar o documento de forma clara e visual. Esse material será essencial para o desenvolvimento do nosso site de festas e shows.
 </p>
  
 ## Mapa mental - Geral.
