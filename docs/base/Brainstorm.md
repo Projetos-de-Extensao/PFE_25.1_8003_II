@@ -40,31 +40,31 @@ A equipe se reuniu para debater ideias gerais sobre um projeto de um site de eve
 ### 2. Como será o processo para cadastrar um novo clientetorneio?
  
 <p align = "justify">
-<b></b> - O moderador deverá fazer login e...
+<b></b> - O moderador deverá acessar o sistema e fazer login.
  
-<b></b> - O cliente...
+<b></b> - O cliente (organizador de eventos) deverá preencher um formulário com seus dados comerciais, como nome, e-mail, telefone e redes sociais.
  
-<b></b> - Com o usuário logado, ele deverá...
+<b></b> - Com o usuário logado, ele deverá confirmar os dados e enviar para validação.
 
-<b></b> - O cliente...
+<b></b> - O cliente receberá uma notificação quando seu cadastro for aprovado.
 
-<b></b> - O cliente...
+<b></b> - O cliente, uma vez aprovado, poderá acessar o painel para cadastrar eventos e gerenciar ingressos.
  
 ---
  
 ### 3. Como será a forma de adicionar produtos?
  
 <p align = "justify">
-<b></b> - O cliente ao cadastrar...
+<b></b> - O cliente, ao cadastrar um evento, poderá adicionar produtos como ingressos, pacotes VIP ou brindes exclusivos.
 </p>
  
 <p align = "justify">
-<b></b> - O produto tem...
+<b></b> - O produto tem informações como nome, descrição, preço e quantidade disponível.
 </p>
  
-<b></b> - O produto....
+<b></b> - O produto pode ter variações, como ingressos de diferentes setores ou benefícios extras.
  
-<b></b> - O produto....
+<b></b> - produto será listado na página do evento para compra pelos usuários.
 
  
 ---
@@ -72,27 +72,38 @@ A equipe se reuniu para debater ideias gerais sobre um projeto de um site de eve
 ### 4. Outras perguntas pertinentes ao contexto
 
 <p align = "justify">
-<b></b> - Com a localização...
+<b></b> - Com a localização ativada, o site pode sugerir eventos próximos ao usuário.
  
-<b></b> - O cliente...
+<b></b> -
+O cliente poderá visualizar estatísticas de vendas de ingressos e engajamento do público.
+
  
-<b></b> - O cliente...
- 
+<b></b> - O cliente poderá criar promoções ou cupons de desconto para incentivar vendas.
+
 ---
  
 ### 5. "Outras perguntas pertinentes ao contexto", Como seria a forma de adicionar do cliente adicionar os produtos ?
 <p align = "justify">
-<b></b> - O cliente....
+<b></b> - O cliente acessa o painel e seleciona um evento já cadastrado.
 </p>
+
+<b></b> - No evento, ele pode adicionar ingressos, brindes ou serviços extras.
+
+<b></b> - Ele define nome, preço, disponibilidade e descrição do produto.
+
+<b></b> - O sistema exibe os produtos na página do evento para os usuários comprarem.
+
  
 ### 6. Quais informações seriam interessante para o cliente?
 <p align = "justify">
-   <b></b> - Informações...
+   <b></b> - Informações sobre a performance dos eventos (vendas, visualizações, engajamento).
    
-   <b></b> - O cliente usuário poderá acessar informações...
+   <b></b> - O cliente usuário poderá acessar informações sobre tendências do mercado de eventos e sugestões de melhorias.
 
-   <b></b> - O usuário poderá ver scouts de partidas do torneio, ver as regras dos torneios, locais e data das partidas.
-   
+   <b></b> - O usuário poderá visualizar estatísticas de vendas, acessos à página do evento e feedback dos participantes.
+
+   <b></b> - O usuário poderá ver relatórios sobre a quantidade de ingressos vendidos, ingressos restantes e horários de pico de vendas.
+
 </p>
  
 ### Requisitos elicitados
