@@ -1,6 +1,6 @@
 ---
-id: mapa_mental
-title: Mapas Mentais
+
+Title: Mapas Mentais
 ---
  
 ## Introdução
@@ -12,7 +12,7 @@ Mapa mental consiste em criar resumos cheios de símbolos, cores, setas e frases
 ## Metodologia
  
 <p align = "justify">
-Foi levantado um ponto importante sobre o app e, assim, foi produzido o mapa mental. O documento foi produzido utilizando a ferramenta...
+Foi levantado um ponto importante sobre o app e, assim, foi produzido o mapa mental. O documento foi produzido utilizando a ferramenta PlantUML.
 </p>
  
 ## Mapa mental - Geral.
@@ -37,7 +37,7 @@ O mapa mental é uma ficha de estudos que ajuda a dar uma visão geral do tema, 
 ## Referências
 > Mapa MentalXXX,  Disponível em: https://www.....
  
-> Ferramentas para Mapas Mentais. Disponível em: https://www....
+> Ferramentas para Mapas Mentais. Disponível em: https://www.google.com/search?q=plantuml&oq=plantuml&gs_lcrp=EgZjaHJvbWUyDggAEEUYJxg5GIAEGIoFMgYIARAjGCcyDQgCEAAYgwEYsQMYgAQyBwgDEAAYgAQyBwgEEAAYgAQyBwgFEAAYgAQyBwgGEAAYgAQyBwgHEAAYgAQyBwgIEAAYgAQyBwgJEAAYgATSAQgxNzY1ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8.
  
 > Plataforma para usuários colaborar no desenho... Disponível em: https://...
  
