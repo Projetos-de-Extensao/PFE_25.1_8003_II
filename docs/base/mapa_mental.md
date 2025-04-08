@@ -21,9 +21,7 @@ Um ponto importante sobre o aplicativo foi levantado, e, a partir disso, desenvo
  
 ### Mapa mental 1
  
-![Mapa mental Brainstorm](![Mapa Mental](../assets/mapa_mental/mapamental.png)
-)
- 
+![Mapa mental ](../assets/mapa_mental/mapamental.png)
 
  
 ## Conclusão
