@@ -1,4 +1,10 @@
-🎯 Meta Principal (0):
+---
+id: wcag
+title: wcag
+---
+
+# 🎯 Meta Principal (0)
+
 Identificar a disponibilidade, preços e condições de acesso de um evento ou festa
 
 🧩 Tarefa 0: Identificar a disponibilidade, preços e condições de acesso de um evento

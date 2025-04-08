@@ -1,5 +1,5 @@
 # Projeto Front-End
 
-[Proposta](../assets/Projetos/Proposta ICurti.docx)
+[Proposta](../)
 
-[Planejamento](../assets/Projetos/Planejamento PFE ICurti.docx)
+[Planejamento](../)
