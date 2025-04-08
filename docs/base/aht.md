@@ -3,7 +3,7 @@ id: wcag
 title: wcag
 ---
 
-# 🎯 Meta Principal (0)
+# 🎯 Meta Principal
 
 Identificar a disponibilidade, preços e condições de acesso de um evento ou festa
 
