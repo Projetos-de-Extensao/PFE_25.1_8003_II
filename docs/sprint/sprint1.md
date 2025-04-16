@@ -14,8 +14,7 @@ title: Sprint 1
 | -------------------------------------------------------------------------------------------- | ---------------- |
 | Decidir o nome o projeto.                                                                    | Todos         |
 | Criar o repositório nos padrões (Organizar wiki).                                          | Fabio Henrique             |
-| Criar issues no GitHub / ZenHub                                                              | Roberto Ramos             |
-| Configuração do grupo do Telegram(configurar bot).                                         | xxx              |
+| Criar issues no GitHub / ZenHub                                                              | Roberto Ramos             |           |
 | Estudar e escolher as metodologias.                                                          | Todos            |
 | [Documento de visão](https://github.com/xxx/xxx.md)                                            |  Roberto Ramos, Luis Cesar e Rafael Paraquett    |
 | Elaborar[5w2H](https://github.com/xxx/xxx.md)                                                   |  Rafael Paraquett e Luis Cesar     |
