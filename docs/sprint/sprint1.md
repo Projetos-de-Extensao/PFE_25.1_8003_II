@@ -12,17 +12,17 @@ title: Sprint 1
 
 | Tarefa                                                                                       | Responsabilidade |
 | -------------------------------------------------------------------------------------------- | ---------------- |
-| Decidir o nome o projeto.                                                                    | Todos            |
-| Criar o repositório nos padrões (Organizar wiki).                                          | xxx              |
-| Criar issues no GitHub / ZenHub                                                              | xxx              |
+| Decidir o nome o projeto.                                                                    | Todos         |
+| Criar o repositório nos padrões (Organizar wiki).                                          | Fabio Henrique             |
+| Criar issues no GitHub / ZenHub                                                              | Roberto Ramos             |
 | Configuração do grupo do Telegram(configurar bot).                                         | xxx              |
 | Estudar e escolher as metodologias.                                                          | Todos            |
-| [Documento de visão](https://github.com/xxx/xxx.md)                                            | XXX e XXXXX      |
-| Elaborar[5w2H](https://github.com/xxx/xxx.md)                                                   | XXX e XXXXX      |
-| [Mapas Mentais](https://github.com/xxx/xxx.md)                                                  | XXX e XXXXX      |
+| [Documento de visão](https://github.com/xxx/xxx.md)                                            |  Roberto Ramos, Luis Cesar e Rafael Paraquett    |
+| Elaborar[5w2H](https://github.com/xxx/xxx.md)                                                   |  Rafael Paraquett e Luis Cesar     |
+| [Mapas Mentais](https://github.com/xxx/xxx.md)                                                  |  Roberto Ramos e Antonio José   |
 | [Brainstorming](https://github.com/UnBArqDsw/2020.1_G7_TCM/blob/master/docs/base/Brainstorm.md) | Todos            |
-| [Entrevistas](https://github.com/xxx/xxx.md)                                                    | XXX e XXXXX      |
-| [Prototipação.](https://github.com/xxx/xxx.md)                                                | XXX e XXXXX      |
+| [Entrevistas](https://github.com/xxx/xxx.md)                                                    |  XXXXX      |
+| [Prototipação.](https://github.com/xxx/xxx.md)                                                |  Roberto Ramos e Antonio José    |
 
 ## Sprint Retrospective/Review Meeting
 
