@@ -33,7 +33,7 @@ Utilizar a aplicação que será desenvolvida visando entregar os ingressos dent
 ## Objetivos
 
 <p align = "justify">
-O objetivo da equipe de desenvolvimento é fornecer criar um site acessível para qualquer pessoa.
+O objetivo da equipe de desenvolvimento é criar um site acessível para qualquer pessoa.
 </p>
 
 ## Descrição do Usuário 
@@ -59,7 +59,7 @@ O cliente poderá comprar apenas dois ingressos por conta.
 ### Produto
 
 <p align = "justify">
-O cliente poderá cadastrar realizar a compra de ingressos.
+O cliente poderá realizar a compra de ingressos.
 </p>
 
 ### Pesquisa sobre Shows e festas
@@ -71,7 +71,7 @@ O cliente poderá pesquisar shows e festas.
 ## Restrições
 
 <p align = "justify">
-A aplicação não será responsável reembolso de ingressos no dia do evento.
+A aplicação não será responsável pelo reembolso de ingressos no dia do evento.
 </p>
 
 ## Referências Bibliográficas

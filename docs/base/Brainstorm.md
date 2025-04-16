@@ -5,7 +5,7 @@ Title: Brainstorm
  
 ## Introdução
 <p align = "justify">
-O brainstorm é uma técnica usada para levantar requisitos, que envolve reunir a equipe para discutir vários aspectos gerais do projeto apresentados no documento do problema de negócios. Durante o brainstorm, o diálogo é estimulado e as críticas são evitadas, permitindo que todos contribuam com suas próprias ideias.
+O Brainstorm é uma técnica usada para levantar requisitos, que envolve reunir a equipe para discutir vários aspectos gerais do projeto apresentados no documento do problema de negócios. Durante o brainstorm, o diálogo é estimulado e as críticas são evitadas, permitindo que todos contribuam com suas próprias ideias.
 </p>
  
 ## Metodologia
@@ -21,7 +21,7 @@ A equipe se reuniu para debater ideias gerais sobre um projeto de um site de eve
 ### 1. Qual o objetivo principal da aplicação?
  
 <p align = "justify">
-<b></b> - Deve ser uma plataforma onde qualquer pessoa possa comprar ingressos para diversos eventos, sendo festas e shows. 
+<b></b> - Deve ser uma plataforma onde qualquer pessoa possa comprar ingressos para diversos eventos, tendo o foco em festas e shows. 
 
 </p>
  
@@ -37,10 +37,11 @@ A equipe se reuniu para debater ideias gerais sobre um projeto de um site de eve
  
 ---
  
-### 2. Como será o processo para cadastrar um novo clientetorneio?
+### 2. Como será o processo para cadastrar um novo cliente?
  
 <p align = "justify">
 <b></b> - O moderador deverá acessar o sistema e fazer login.
+<p>
  
 <b></b> - O cliente (organizador de eventos) deverá preencher um formulário com seus dados comerciais, como nome, e-mail, telefone e redes sociais.
  
@@ -49,6 +50,8 @@ A equipe se reuniu para debater ideias gerais sobre um projeto de um site de eve
 <b></b> - O cliente receberá uma notificação quando seu cadastro for aprovado.
 
 <b></b> - O cliente, uma vez aprovado, poderá acessar o painel para cadastrar eventos e gerenciar ingressos.
+
+<p>
  
 ---
  
@@ -57,8 +60,7 @@ A equipe se reuniu para debater ideias gerais sobre um projeto de um site de eve
 <p align = "justify">
 <b></b> - O cliente, ao cadastrar um evento, poderá adicionar produtos como ingressos, pacotes VIP ou brindes exclusivos.
 </p>
- 
-<p align = "justify">
+
 <b></b> - O produto tem informações como nome, descrição, preço e quantidade disponível.
 </p>
  
@@ -66,6 +68,7 @@ A equipe se reuniu para debater ideias gerais sobre um projeto de um site de eve
  
 <b></b> - produto será listado na página do evento para compra pelos usuários.
 
+<p>
  
 ---
  
@@ -83,6 +86,7 @@ O cliente poderá visualizar estatísticas de vendas de ingressos e engajamento 
 ---
  
 ### 5. "Outras perguntas pertinentes ao contexto", Como seria a forma de adicionar do cliente adicionar os produtos ?
+
 <p align = "justify">
 <b></b> - O cliente acessa o painel e seleciona um evento já cadastrado.
 </p>
@@ -93,8 +97,10 @@ O cliente poderá visualizar estatísticas de vendas de ingressos e engajamento 
 
 <b></b> - O sistema exibe os produtos na página do evento para os usuários comprarem.
 
+<p>
  
 ### 6. Quais informações seriam interessante para o cliente?
+
 <p align = "justify">
    <b></b> - Informações sobre a performance dos eventos (vendas, visualizações, engajamento).
    

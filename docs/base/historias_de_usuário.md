@@ -11,10 +11,15 @@ Para que eu possa garantir que os eventos estejam bem organizados e otimizados p
 Critérios de Aceitação:
 
 •	O gerente deve acessar seu login.
+
 •	O gerente deve conseguir visualizar uma lista completa de eventos.
+
 •	O gerente pode ver dados sobre a quantidade de ingressos vendidos, receita gerada e quantidade de ingressos restantes.
+
 •	O gerente pode editar as informações de cada evento (data, preço, descrição, etc.).
+
 •	O gerente pode adicionar novos eventos à plataforma.
+
 •	O sistema deve enviar relatórios sobre o desempenho de vendas de cada evento.
 
 # Promoter
@@ -28,10 +33,15 @@ Para que eu consiga atrair mais clientes e aumentar a visibilidade do evento que
 Critérios de Aceitação:
 
 •	O promoter deve acessar seu login.
+
 •	O promoter pode criar eventos com todos os detalhes (nome, data, local, preço de ingressos, etc.).
+
 •	O promoter tem a capacidade de adicionar imagens e vídeos para tornar o evento mais atrativo.
+
 •	O promoter pode ver a quantidade de ingressos vendidos e a performance do evento em tempo real.
+
 •	O promoter pode criar promoções ou descontos específicos para atrair mais clientes.
+
 •	O promoter recebe notificações quando o evento estiver prestes a ocorrer ou quando os ingressos estiverem quase esgotando.
 
 
@@ -46,10 +56,16 @@ Para que eu possa encontrar eventos que me interessam e garantir minha entrada d
 Critérios de Aceitação:
 
 •	O cliente deve acessar seu login, caso não tenha  deve criar.
+
 •	O cliente pode pesquisar e filtrar eventos por tipo, data e localização.
+
 •	O cliente pode visualizar detalhes do evento, como descrição, horários, preços e disponibilidade de ingressos.
+
 •	O cliente pode realizar a compra de ingressos de forma simples, escolhendo a quantidade e o tipo de ingresso.
+
 •	O cliente pode pagar de forma segura por meio de diferentes opções de pagamento (cartão de crédito, boleto, pix, etc.).
+
 •	O cliente recebe um e-ticket ou confirmação por e-mail com os detalhes da compra.
+
 •	O cliente tem a possibilidade de compartilhar eventos nas redes sociais para convidar amigos.
 
