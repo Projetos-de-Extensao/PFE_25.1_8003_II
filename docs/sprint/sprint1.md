@@ -25,7 +25,7 @@ title: Sprint 1
 
 ## Sprint Retrospective/Review Meeting
 
-#### Presentes na reunião: XXXX
+#### Presentes na reunião: Todos os integrantes do grupo.
 
 ### Dividas da Sprint
 
@@ -44,8 +44,11 @@ title: Sprint 1
 ### O que podemos melhorar?
 
 - Ter mais foco na reuniões para evitar o desperdício de tempo.
-- A equipe deve ter mais autonomia em relação à falta de membros.
-- Podemos utilizar algo ferramenta de timebox para maior efetividade nas reuniões, sugestão: https://timebox.cedrotech.com/
+- Alinhamento na postagem de códigos.
+- Entregas mais rápidas, com antecedência.
+
+
+
 
 ### Ferramentas utilizadas
 
