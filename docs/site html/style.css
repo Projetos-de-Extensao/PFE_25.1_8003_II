@@ -3,13 +3,129 @@
 html, body {
     height: 100%;
     margin: 0;
+    padding: 0;
     display: flex;
     flex-direction: column;
   }
   main {
-    flex: 1;
-  }
+    flex: 1 0 auto; /* Alterado */
+}
   
+main {
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main h2, main > h1 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.services-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.service-card {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 30px 20px;
+  width: 280px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.service-card i {
+  font-size: 40px;
+  color: #000000;
+  margin-bottom: 15px;
+}
+
+.service-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.service-card p {
+  font-size: 1rem;
+  color: #666;
+}
+
+.section-title {
+  font-size: 2.2rem; /* tamanho ainda expressivo, mas menos agressivo */
+  font-weight: 600; /* menos pesado */
+  text-align: center;
+  color: #333; /* um cinza escuro mais suave que preto puro */
+  margin-bottom: 30px;
+  text-transform: none; /* mantém a capitalização original */
+  letter-spacing: 1px;
+  position: relative;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.section-title::after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 3px;
+  background-color: #e0e0e0; /* linha mais clara e delicada */
+  margin: 8px auto 0;
+  border-radius: 1.5px;
+}
+
+
+.testimonials-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 0 20px;
+}
+
+.testimonial-card {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  padding: 25px 20px;
+  max-width: 350px;
+  width: 100%;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.testimonial-card:hover {
+  transform: translateY(-5px);
+}
+
+.testimonial-card .stars {
+  margin-bottom: 15px;
+}
+
+.testimonial-card .fa-star {
+  color: #FFD700;
+  font-size: 20px;
+}
+
+.testimonial-card p {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.5;
+}
+
+
+
   * {
     margin: 0;
     padding: 0;
@@ -115,86 +231,109 @@ html, body {
     
   
   .event-carousel {
-    padding: 30px;
-    background: linear-gradient(to right, #f5f5f5, #ede2d6);
-    font-family: sans-serif;
-  }
-  
-  .header-carousel {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 20px;
-  }
-  
-  .header-carousel h2 {
-    font-size: 28px;
-    font-weight: bold;
-  }
-  
-  .header-carousel a {
-    text-decoration: none;
-    color: #000;
-    font-size: 14px;
-  }
-  
-  .carousel-container {
-    position: relative;
-    overflow: hidden;
-  }
-  
-  .carousel {
-    display: flex;
-    gap: 20px;
-    transition: transform 0.3s ease;
-    overflow-x: auto;
-    scroll-behavior: smooth;
-  }
-  
-  .event-card {
-    min-width: 220px;
-    background-color: #fff;
-    border-radius: 10px;
-    padding: 10px;
-    flex-shrink: 0;
-  }
-  
-  .event-card img {
-    width: 100%;
-    border-radius: 10px;
-  }
-  
-  .event-card h3 {
-    font-size: 16px;
-    margin: 10px 0 5px;
-  }
-  
-  .event-card p {
-    font-size: 14px;
-    margin: 2px 0;
-  }
-  
-  .nav {
-    position: absolute;
-    top: 40%;
-    background-color: rgba(255, 255, 255, 0.8);
-    border: none;
-    font-size: 24px;
-    cursor: pointer;
-    padding: 8px;
-    border-radius: 50%;
-    z-index: 10;
-  }
-  
-  .prev {
-    left: 0;
-  }
-  
-  .next {
-    right: 0;
-  }
-  
-  
+  padding: 2rem;
+  background: #f0f0f0;
+  font-family: Arial, sans-serif;
+}
+
+.header-carousel {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.header-carousel h2 {
+  font-size: 2rem;
+  color: #222;
+}
+
+.header-carousel a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.carousel-wrapper {
+  position: relative;
+  overflow: hidden;
+  padding: 1rem 0;
+}
+
+.carousel {
+  display: flex;
+  gap: 1.5rem;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  padding: 0 1rem;
+}
+
+.carousel::-webkit-scrollbar {
+  display: none;
+}
+
+.event-card {
+  min-width: 300px;
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  overflow: hidden;
+  flex-shrink: 0;
+  transition: transform 0.3s ease;
+}
+
+.event-card:hover {
+  transform: scale(1.05);
+}
+
+.event-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.event-card h3 {
+  margin: 0.5rem;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.event-card p {
+  margin: 0 0.5rem 0.5rem;
+  font-size: 1rem;
+  color: #555;
+}
+
+.nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #007bff;
+  color: white;
+  border: none;
+  font-size: 2rem;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 1;
+  transition: background 0.3s ease;
+}
+
+.nav:hover {
+  background: #0056b3;
+}
+
+.nav.prev {
+  left: 0.5rem;
+}
+
+.nav.next {
+  right: 0.5rem;
+}
+
+
   
   
   

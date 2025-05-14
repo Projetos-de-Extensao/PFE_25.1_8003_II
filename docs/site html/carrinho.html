@@ -14,8 +14,6 @@
             <img src="festify.jpg" alt="Festify Logo" class="logo-img">
         </div>
 
-        
-
         <div class="header-icons">
             <a href="carrinho.html" title="Carrinho"><i class="fas fa-shopping-cart"></i></a>
             <a href="login.html" title="Login"><i class="fas fa-user"></i></a>
@@ -50,21 +48,33 @@
             <h4 class="payment-title">Formas de Pagamento:</h4>
             <div class="payment-section">
                 <div class="payment-methods">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/Visa.svg" alt="Visa">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/Mastercard-logo.png" alt="Mastercard">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Hipercard_logo.svg" alt="Hipercard">
-                <img src="pix.png" alt="Pix">
-            </div>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/Visa.svg" alt="Visa">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/Mastercard-logo.png" alt="Mastercard">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Hipercard_logo.svg" alt="Hipercard">
+                    <img src="pix.png" alt="Pix">
+                </div>
 
-            <div class="total">
-                <h3>Total: R$ 320,00</h3>
-                <button class="btn-finalizar">Finalizar Compra</button>
+                <div class="total">
+                    <h3>Total: R$ 320,00</h3>
+                    <button class="btn-finalizar">Finalizar Compra</button>
+                </div>
             </div>
         </div>
     </main>
 
+    <script>
+        // Remover itens do carrinho
+        document.querySelectorAll('.btn-remove').forEach(button => {
+            button.addEventListener('click', function () {
+                this.closest('.cart-item').remove();
+                alert("Item removido do carrinho!");
+            });
+        });
+
+        // Finalizar compra
+        document.querySelector('.btn-finalizar')?.addEventListener('click', () => {
+            alert('Compra finalizada com sucesso! Obrigado por escolher o Festify!');
+        });
+    </script>
 </body>
 </html>
-
-
-
