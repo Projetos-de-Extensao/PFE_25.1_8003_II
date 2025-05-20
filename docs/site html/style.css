@@ -124,6 +124,23 @@ main h2, main > h1 {
   line-height: 1.5;
 }
 
+.btn-entrar {
+  color: #968787; /* Cor do texto */
+  border: 2px solid #ffffff; /* Cor da borda */
+  background-color: white; /* Fundo branco */
+  padding: 8px 16px; /* Espaçamento interno */
+  border-radius: 10px; /* Bordas arredondadas */
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-entrar:hover {
+  background-color: #8661f3; /* Fundo roxo no hover */
+  color: white; /* Texto branco no hover */
+}
+
 
 
   * {
