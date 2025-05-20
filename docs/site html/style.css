@@ -126,10 +126,10 @@ main h2, main > h1 {
 
 .botao {
   display: inline-block;
-  background-color: #ffffff;     /* Fundo branco */
-  color: #333333;                /* Texto visível (preto suave) */
-  padding: 8px 14px;
-  font-size: 14px;
+  background-color: #ffffff;
+  color: #333333;               
+  padding: 8px 10px;
+  font-size: 12px;
   text-decoration: none;
   border: 1px solid #ccc;
   border-radius: 6px;
