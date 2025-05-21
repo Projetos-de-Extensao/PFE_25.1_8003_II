@@ -195,6 +195,40 @@
     background-color: #c04600;
   }
   
+  footer {
+    background: #1E1E1E;
+    color: #ccc;
+    padding: 2rem;
+    font-size: 0.9rem;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer-container div {
+    flex: 1;
+    min-width: 200px;
+  }
+  
+  .footer-container h4 {
+    color: white;
+    margin-bottom: 0.8rem;
+  }
+  
+  .footer-container a {
+    color: #aaa;
+    text-decoration: none;
+  }
+  
+  .footer-container a:hover {
+    color: #20C4C4;
+  }
 
 
   /* Responsivo */

@@ -1,24 +1,24 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Inicio - Festify</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Início - Festify</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
 </head>
 <body>
 
+  <!-- Cabeçalho -->
   <header class="header">
     <div class="logo">
-      <img src="festify.jpg" alt="Festify Logo" class="logo-img">
+      <img src="festify.jpg" alt="Festify Logo" class="logo-img" />
     </div>
 
-    
-    <div class="search-bar"> <!-- Barra de Pesquisa --><input type="text" placeholder="Buscar eventos, artistas, locais..." />
-      <button type="submit">🔍</button>
+    <div class="search-bar">
+      <input type="text" placeholder="Buscar eventos, artistas, locais..." />
+      <button type="submit" aria-label="Buscar">🔍</button>
     </div>
-
 
     <div class="header-icons">
       <a href="#localizacao" title="Localização"><i class="fas fa-location-dot"></i></a>
@@ -26,196 +26,176 @@
       <a href="carrinho.html" title="Carrinho"><i class="fas fa-shopping-cart"></i></a>
       <a href="login.html" class="botao">Entrar</a>
     </div>
-      </header>
+  </header>
 
+  <!-- Menu de Categorias -->
   <nav class="menu-categorias">
     <ul>
       <li><a href="explorar.html">Explorar</a></li>
       <li><a href="categorias.html">Categorias</a></li>
-       <li><a href="criar-evento.html">Criar Evento</a></li>
-
+      <li><a href="criar-evento.html">Criar Evento</a></li>
     </ul>
   </nav>
 
+  <!-- Carrossel de Eventos -->
   <section class="event-carousel">
-  <div class="header-carousel">
-    <h2>Não fique de fora!</h2>
-    <a href="#">Ver todos &gt;&gt;&gt;</a>
-  </div>
-
-  <div class="carousel-wrapper">
-    <button class="nav prev">&#8249;</button>
-
-    <div class="carousel" id="carousel">
-      <div class="event-card">
-        <img src="teatro1.jpg" alt="Figa Festival">
-        <h3>Evento 1</h3>
-        <p>Plaza Shopping</p>
-        <p>1 de maio de 2025</p>
-        <p>150 R$</p>
-      </div>
-      <div class="event-card">
-        <img src="teatro1.jpg" alt="Suba Jovem">
-        <h3>Evento 1</h3>
-        <p>Joá</p>
-        <p>2 de maio de 2025</p>
-        <p>220 R$</p>
-      </div>
-         <div class="event-card">
-        <img src="teatro1.jpg" alt="Suba Jovem">
-        <h3>Evento 1</h3>
-        <p>Joá</p>
-        <p>2 de maio de 2025</p>
-        <P>100 R$</P>
-      </div>
-         <div class="event-card">
-        <img src="teatro1.jpg" alt="Suba Jovem">
-        <h3>Evento 1</h3>
-        <p>Joá</p>
-        <p>2 de maio de 2025</p>
-        <P>130  R$</P>
-      </div>
-         <div class="event-card">
-        <img src="teatro1.jpg" alt="Suba Jovem">
-        <h3>Evento 1</h3>
-        <p>Joá</p>
-        <p>2 de maio de 2025</p>
-        <p>350 R$</p>
-      </div>
-         <div class="event-card">
-        <img src="teatro1.jpg" alt="Suba Jovem">
-        <h3>Evento 1</h3>
-        <p>Joá</p>
-        <p>2 de maio de 2025</p>
-      </div>
-         <div class="event-card">
-        <img src="teatro1.jpg" alt="Suba Jovem">
-        <h3>Evento 1</h3>
-        <p>Joá</p>
-        <p>2 de maio de 2025</p>
-      </div>   <div class="event-card">
-        <img src="teatro1.jpg" alt="Suba Jovem">
-        <h3>Evento 1</h3>
-        <p>Joá</p>
-        <p>2 de maio de 2025</p>
-      </div>
-       
-      
+    <div class="header-carousel">
+      <h2>Não fique de fora!</h2>
+      <a href="#">Ver todos &gt;&gt;&gt;</a>
     </div>
 
-    <button class="nav next">&#8250;</button>
-  </div>
-</section>
-
-
-
-
-  <main>
-  <h2 class="section-title">Nossos serviços</h2>
-  <div class="services-container">
-    <div class="service-card">
-      <i class="fas fa-calendar-alt"></i>
-      <h3>Eventos</h3>
-      <p>Descubra os melhores eventos da sua cidade.</p>
-    </div>
-    <div class="service-card">
-      <i class="fas fa-music"></i>
-      <h3>Música</h3>
-      <p>Ouça as músicas mais tocadas do momento.</p>
-    </div>
-    <div class="service-card">
-      <i class="fas fa-users"></i>
-      <h3>Artistas</h3>
-      <p>Conheça os artistas que estão bombando.</p>
-    </div>
-    <div class="service-card">
-      <i class="fas fa-users"></i>
-      <h3>Teatro</h3>
-      <p>Conheça os artistas que estão bombando.</p>
-    </div>
-    <div class="service-card">
-      <i class="fas fa-users"></i>
-      <h3>Festas</h3>
-      <p>Conheça os artistas que estão bombando.</p>
-    </div>
-  </div>
-</main>
-
-</main>
-
-
-<main>
-  <h2 class="section-title">Depoimentos</h2>
-  <div class="testimonials-container">
-    
-    <div class="testimonial-card">
-      <div class="stars">
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-      </div>
-      <p>"Profissionalismo do início ao fim. O evento foi um sucesso e deixou uma impressão duradoura em todos os participantes. Certamente trabalharemos juntos novamente."</p>
-    </div>
-
-    <div class="testimonial-card">
-      <div class="stars">
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-      </div>
-      <p>"Não poderíamos estar mais felizes com nossa escolha. A equipe foi atenciosa desde o primeiro contato e tornou nosso dia especial verdadeiramente mágico."</p>
-    </div>
-
-    <div class="testimonial-card">
-      <div class="stars">
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-      </div>
-      <p>"A organização foi impecável, a estrutura do evento superou nossas expectativas. Recomendo fortemente a todos que buscam excelência!"</p>
-    </div>
-
-  </div>
-</main>
-
-
-  <section class="newsletter-section">
-    <div class="newsletter-container">
-      
-      <!-- Texto -->
-      <div class="newsletter-text">
-        <h2>Lançamentos e novidades</h2>
-        <p>Receba com exclusividade a nossa newsletter com tendências, promoções e muito mais</p>
-      </div>
-  
-      <!-- Formulário -->
-      <form class="newsletter-form">
-        <label for="email">SEU EMAIL</label>
-        <div class="input-group">
-          <input type="email" id="email" name="email" required>
-          <button type="submit">CADASTRAR</button>
+    <div class="carousel-wrapper">
+      <button class="nav prev" aria-label="Anterior">&#8249;</button>
+      <div class="carousel" id="carousel">
+        <!-- Cartões de Evento (exemplo) -->
+        <div class="event-card">
+          <img src="teatro1.jpg" alt="Figa Festival" />
+          <h3>Evento 1</h3>
+          <p>Plaza Shopping</p>
+          <p>1 de maio de 2025</p>
+          <p>150 R$</p>
         </div>
-        <div class="checkbox-group">
-          <input type="checkbox" id="privacy" required>
-          <label for="privacy">
-            Aceito receber conteúdos e concordo com a <a href="#">Política de Privacidade</a>
-          </label>
+
+        <!-- Repetição padronizada -->
+        <div class="event-card">
+          <img src="teatro1.jpg" alt="Suba Jovem" />
+          <h3>Evento 2</h3>
+          <p>Joá</p>
+          <p>2 de maio de 2025</p>
+          <p>220 R$</p>
         </div>
-      </form>
-  
+
+         <div class="event-card">
+          <img src="teatro1.jpg" alt="Suba Jovem" />
+          <h3>Evento 2</h3>
+          <p>Joá</p>
+          <p>2 de maio de 2025</p>
+          <p>220 R$</p>
+        </div>
+
+         <div class="event-card">
+          <img src="teatro1.jpg" alt="Suba Jovem" />
+          <h3>Evento 2</h3>
+          <p>Joá</p>
+          <p>2 de maio de 2025</p>
+          <p>220 R$</p>
+        </div>
+
+         <div class="event-card">
+          <img src="teatro1.jpg" alt="Suba Jovem" />
+          <h3>Evento 2</h3>
+          <p>Joá</p>
+          <p>2 de maio de 2025</p>
+          <p>220 R$</p>
+        </div>
+
+         <div class="event-card">
+          <img src="teatro1.jpg" alt="Suba Jovem" />
+          <h3>Evento 2</h3>
+          <p>Joá</p>
+          <p>2 de maio de 2025</p>
+          <p>220 R$</p>
+        </div>
+
+
+        <!-- Mais cards aqui, se necessário -->
+      </div>
+      <button class="nav next" aria-label="Próximo">&#8250;</button>
     </div>
   </section>
 
+  <!-- Conteúdo Principal -->
   <main>
-    
+    <!-- Serviços -->
+    <section>
+      <h2 class="section-title">Nossos serviços</h2>
+      <div class="services-container">
+        <div class="service-card">
+          <i class="fas fa-calendar-alt"></i>
+          <h3>Eventos</h3>
+          <p>Descubra os melhores eventos da sua cidade.</p>
+        </div>
+        <div class="service-card">
+          <i class="fas fa-music"></i>
+          <h3>Música</h3>
+          <p>Ouça as músicas mais tocadas do momento.</p>
+        </div>
+        <div class="service-card">
+          <i class="fas fa-users"></i>
+          <h3>Artistas</h3>
+          <p>Conheça os artistas que estão bombando.</p>
+        </div>
+        <div class="service-card">
+          <i class="fas fa-theater-masks"></i>
+          <h3>Teatro</h3>
+          <p>Assista a espetáculos incríveis perto de você.</p>
+        </div>
+        <div class="service-card">
+          <i class="fas fa-glass-cheers"></i>
+          <h3>Festas</h3>
+          <p>As melhores festas estão aqui.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Depoimentos -->
+    <section>
+      <h2 class="section-title">Depoimentos</h2>
+      <div class="testimonials-container">
+        <div class="testimonial-card">
+          <div class="stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i>
+            <i class="fas fa-star"></i><i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <p>"Profissionalismo do início ao fim. O evento foi um sucesso!"</p>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i>
+            <i class="fas fa-star"></i><i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <p>"A equipe foi atenciosa desde o primeiro contato. Incrível!"</p>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i>
+            <i class="fas fa-star"></i><i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <p>"A estrutura do evento superou nossas expectativas."</p>
+        </div>
+      </div>
+    </section>
   </main>
 
+  <!-- Newsletter -->
+  <section class="newsletter-section">
+    <div class="newsletter-container">
+      <div class="newsletter-text">
+        <h2>Lançamentos e novidades</h2>
+        <p>Receba nossa newsletter com tendências, promoções e mais</p>
+      </div>
+      <form class="newsletter-form">
+        <label for="email">Seu e-mail</label>
+        <div class="input-group">
+          <input type="email" id="email" name="email" required />
+          <button type="submit">Cadastrar</button>
+        </div>
+        <div class="checkbox-group">
+          <input type="checkbox" id="privacy" required />
+          <label for="privacy">
+            Aceito receber conteúdos e concordo com a <a href="#">Política de Privacidade</a>.
+          </label>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- Rodapé -->
   <footer>
     <div class="footer-container">
       <div>
@@ -251,8 +231,11 @@
         </div>
       </div>
     </div>
-    <p class="copyright">&copy; 2025 Festify. Todos os direitos reservados.</p>
+    <p class="copyright">
+      &copy; 2025 Festify. Todos os direitos reservados.
+    </p>
   </footer>
-<script src="carousel.js"></script>
+
+  <script src="carousel.js"></script>
 </body>
 </html>
