@@ -1,0 +1,72 @@
+
+
+.event-carousel {
+  padding: 2rem;
+  background: #f0f0f0;
+  font-family: Arial, sans-serif;
+}
+
+.header-carousel {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.header-carousel h2 {
+  font-size: 2rem;
+  color: #222;
+}
+
+.header-carousel a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.carousel-wrapper {
+  position: relative;
+  overflow: hidden;
+  padding: 1rem 0;
+}
+
+.carousel {
+  display: flex;
+  gap: 1.5rem;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  padding: 0 1rem;
+}
+
+.carousel::-webkit-scrollbar {
+  display: none; /* Esconde a barra de rolagem para navegadores WebKit (Chrome, Safari) */
+}
+
+.nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #007bff;
+  color: white;
+  border: none;
+  font-size: 2rem;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 1;
+  transition: background 0.3s ease;
+}
+
+.nav:hover {
+  background: #0056b3;
+}
+
+.nav.prev {
+  left: 0.5rem;
+}
+
+.nav.next {
+  right: 0.5rem;
+}

@@ -1,5 +1,5 @@
 import React from 'react';
-import './EventCard.css'; 
+import './Card.css'; 
 
 function Card({ imageUrl, altText, title, location, date, price }) {
   return (
