@@ -1,20 +1,16 @@
 import React from 'react';
 import './Menu.css'; 
+import { Link } from 'react-router-dom'
 
 function Menu() {
   return (
-    <nav className="menu-categorias">
-      <ul>
-        <li>Festas</li>
-        <li>Música</li>
-        <li>Artistas</li>
-        <li>Eventos</li>
-        <li>Artes e Teatro</li>
-        <li>Especiais</li>
-        <li>Estados</li>
-        <li>Shows</li>
-      </ul>
-    </nav>
+  <nav class="menu-categorias">
+    <ul>
+      <li><a href="explorar.html">Explorar</a></li>
+      <li><a href="categorias.html">Categorias</a></li>
+      <li><a href="criar-evento.html">Criar Evento</a></li>
+    </ul>
+  </nav>
   );
 }
 

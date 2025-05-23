@@ -1,25 +1,26 @@
 import React from 'react';
 import './Header.css'; 
+import { Link } from 'react-router-dom'
 
 function Header() {
   return (
-    <header className="header">
-      <div className="logo">
-        <img src="/festify.jpg" alt="Festify Logo" className="logo-img" />
-      </div>
+     <header class="header">
+    <div class="logo">
+      <img src="festify.jpg" alt="Festify Logo" class="logo-img" />
+    </div>
 
-      <div className="search-bar">
-        <input type="text" placeholder="Buscar eventos, artistas, locais..." />
-        <button type="submit">🔍</button>
-      </div>
+    <div class="search-bar">
+      <input type="text" placeholder="Buscar eventos, artistas, locais..." />
+      <button type="submit" aria-label="Buscar">🔍</button>
+    </div>
 
-      <div className="header-icons">
-        <a href="#localizacao" title="Localização"><i className="fas fa-location-dot"></i></a>
-        <span>Brasil</span>
-        <a href="carrinho.html" title="Carrinho"><i className="fas fa-shopping-cart"></i></a>
-        <a href="login.html" title="Login"><i className="fas fa-user"></i></a>
-      </div>
-    </header>
+    <div class="header-icons">
+      <a href="#localizacao" title="Localização"><i class="fas fa-location-dot"></i></a>
+      <span>Brasil</span>
+      <a href="carrinho.html" title="Carrinho"><i class="fas fa-shopping-cart"></i></a>
+      <a href="login.html" class="botao">Entrar</a>
+    </div>
+  </header>
   );
 }
 
