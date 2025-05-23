@@ -12,22 +12,12 @@ import './App.css';
 
 function App() {
   return (
-    <Router> {}
+    <Router>
       <div className="App">
-        {}
-        {}
-
-        <Routes> {}
-          <Route path="/" element={<Home />} /> {}
-          <Route path="/about" element={<About />} /> {}
-          <Route path="/contact" element={<Contact />} /> {}
+        <Routes>
+          <Route path="/" element={<Home />} />
           <Route path="/login" element={<LoginPage />} />
-          {}
-          {}
-          {}
         </Routes>
-
-        {}
       </div>
     </Router>
   );
