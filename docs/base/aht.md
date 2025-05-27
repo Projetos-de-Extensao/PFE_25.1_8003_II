@@ -1,6 +1,6 @@
 ---
-id: wcag
-title: wcag
+id: aht
+title: aht
 ---
 
 # 🎯 Meta Principal
