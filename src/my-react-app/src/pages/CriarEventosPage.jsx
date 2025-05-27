@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import BotaoVoltar from '../components/BotaoVoltar';
+// import BotaoVoltar from '../components/BotaoVoltar'; // Componente não encontrado
 import '../styles/CriarEvento.css';
 
 function CriarEvento() {
@@ -17,7 +17,7 @@ function CriarEvento() {
     return (
         <>
             <Header />
-            <BotaoVoltar />
+            {/* <BotaoVoltar /> */}
             <main className="container">
                 <h1>Criar seu evento</h1>
                 <p>Preencha os dados abaixo...</p>

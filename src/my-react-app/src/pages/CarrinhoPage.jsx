@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import BotaoVoltar from '../components/BotaoVoltar';
-import CartItem from '../components/CartItem'; 
+// import BotaoVoltar from '../components/BotaoVoltar'; // Componente não encontrado
+// import CartItem from '../components/CartItem'; // Componente não encontrado
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import visaLogo from '../assets/visa.svg'; 
@@ -34,17 +34,19 @@ function Carrinho() {
     return (
         <> {}
             <Header />
-            <BotaoVoltar />
+            {/* <BotaoVoltar /> */}
             <main className="main">
                 <div className="container">
                     <h2><i className="fas fa-shopping-cart"></i> Carrinho de Compras</h2>
 
                     {cartItems.map(item => (
-                        <CartItem
-                            key={item.id}
-                            item={item}
-                            onRemove={() => handleRemoveItem(item.id)}
-                        />
+                        <div className="cart-item" key={item.id}>
+                            <p><strong>{item.type}: {item.show}</strong></p>
+                            <p>Data: {item.date}</p>
+                            <p>Qtd: {item.qty} ingresso{item.qty > 1 ? 's' : ''}</p>
+                            <p>Preço: R$ {item.price.toFixed(2)}</p>
+                            <button className="btn-remove" onClick={() => handleRemoveItem(item.id)}>Remover</button>
+                        </div>
                     ))}
 
                     <h4 className="payment-title">Formas de Pagamento:</h4>
@@ -66,18 +68,6 @@ function Carrinho() {
             </main>
             <Footer />
         </>
-    );
-}
-
-function CartItem({ item, onRemove }) {
-    return (
-        <div className="cart-item">
-            <p><strong>{item.type}: {item.show}</strong></p>
-            <p>Data: {item.date}</p>
-            <p>Qtd: {item.qty} ingresso{item.qty > 1 ? 's' : ''}</p>
-            <p>Preço: R$ {item.price.toFixed(2)}</p>
-            <button className="btn-remove" onClick={onRemove}>Remover</button>
-        </div>
     );
 }
 

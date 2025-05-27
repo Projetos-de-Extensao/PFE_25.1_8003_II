@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Header from '../components/Header'; 
 import CategoryMenu from '../components/Menu'; 
@@ -10,7 +9,7 @@ import Footer from '../components/Footer';
 
 
 
-function home() {
+function Home() {
   return (
     <>
       <Header />
@@ -24,4 +23,4 @@ function home() {
   );
 }
 
-export default home;
+export default Home;
