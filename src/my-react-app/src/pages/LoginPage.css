@@ -1,6 +1,4 @@
-/* src/my-react-app/src/pages/LoginPage.css */
 
-/* Estilos para o corpo da página de login */
 body {
     background-color: #f0f2f5;
     display: flex;
@@ -9,9 +7,7 @@ body {
     font-family: Arial, sans-serif;
 }
 
-/* Header (se for diferente do Header global, caso contrário, remova e use o Header.css) */
-/* Se o header desta página for o mesmo que o global, você não precisa copiar os estilos aqui.
-   Eles virão do Header.css importado no componente Header.jsx */
+
 .header {
     background: linear-gradient(90deg, #20C4C4, #FF3F7F);
     padding: 15px 30px;

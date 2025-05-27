@@ -1,15 +1,15 @@
 import React, { useState } from 'react';
 import BotaoVoltar from '../components/BotaoVoltar';
-import CartItem from '../components/CartItem'; // Componente para item
+import CartItem from '../components/CartItem'; 
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import visaLogo from '../assets/visa.svg'; // Importe as imagens
+import visaLogo from '../assets/visa.svg'; 
 import mastercardLogo from '../assets/mastercard.png';
 import hipercardLogo from '../assets/hipercard.svg';
 import pixLogo from '../assets/pix.png';
-import '../styles/Carrinho.css'; // Crie ou adapte seu CSS
+import '../styles/Carrinho.css'; 
 
-// Dados de exemplo (viriam do estado global ou API)
+
 const initialCartItems = [
     { id: 1, show: 'Evento 1', date: '20/07/2025', qty: 2, price: 200.00, type: 'Show' },
     { id: 2, show: 'Evento 2', date: '05/08/2025', qty: 1, price: 120.00, type: 'Festa' },
@@ -21,18 +21,18 @@ function Carrinho() {
     const handleRemoveItem = (itemId) => {
         setCartItems(cartItems.filter(item => item.id !== itemId));
         alert("Item removido do carrinho!");
-        // Aqui você atualizaria o estado global ou faria uma chamada API
+       
     };
 
     const handleFinalizarCompra = () => {
         alert('Compra finalizada com sucesso! Obrigado por escolher o Festify!');
-        // Lógica de finalização...
+        
     };
 
     const total = cartItems.reduce((acc, item) => acc + item.price, 0);
 
     return (
-        <> {/* Fragmento para envolver tudo */}
+        <> {}
             <Header />
             <BotaoVoltar />
             <main className="main">
@@ -69,7 +69,6 @@ function Carrinho() {
     );
 }
 
-// Componente CartItem (pode ficar no mesmo arquivo ou em components/)
 function CartItem({ item, onRemove }) {
     return (
         <div className="cart-item">

@@ -1,13 +1,13 @@
 import React from 'react';
-import { Link } from 'react-router-dom'; // Para links de navegação
-import festifyLogo from '../assets/festify.jpg'; // Importando a imagem
-import './Header.css'; // Crie ou adapte seu CSS
+import { Link } from 'react-router-dom'; 
+import festifyLogo from '../assets/festify.jpg'; 
+import './Header.css';
 
 function Header() {
   return (
     <header className="header">
       <div className="logo">
-        <Link to="/"> {/* Link para a Home */}
+        <Link to="/"> {}
             <img src={festifyLogo} alt="Festify Logo" className="logo-img" />
         </Link>
       </div>
@@ -15,7 +15,7 @@ function Header() {
         <Link to="/carrinho" title="Carrinho">
           <i className="fas fa-shopping-cart"></i>
         </Link>
-        <a href="#localizacao" title="Localização"> {/* Manter como 'a' se for âncora */}
+        <a href="#localizacao" title="Localização"> {}
           <i className="fas fa-location-dot"></i>
         </a>
       </div>
