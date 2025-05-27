@@ -8,6 +8,9 @@ import LoginPage from './pages/LoginPage';
  
 
 import './App.css';
+import Carrinho from './pages/CarrinhoPage';
+import ExplorarEventos from './pages/ExplorarPage';
+import Categorias from './pages/CategoriaPage';
 
 function App() {
   return (
@@ -16,7 +19,9 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/login" element={<LoginPage />} />
-          <Route path="/login" element={<LoginPage />} />
+          <Route path="/carrinho" element={<Carrinho />} />
+          <Route path="/explorar" element={<ExplorarEventos />} />
+          <Route path="/categorias" element={<Categorias />} />
         </Routes>
       </div>
     </Router>

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-// import BotaoVoltar from '../components/BotaoVoltar'; // Componente não encontrado
-// import CartItem from '../components/CartItem'; // Componente não encontrado
+import { Link } from 'react-router-dom';
+import BackToHome from '../components/BacktoHome';  
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import visaLogo from '../assets/visa.svg'; 
