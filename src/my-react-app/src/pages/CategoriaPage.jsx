@@ -1,15 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Header from '../components/Header';
-import Footer from '../components/Footer';
+import Header from '../components/Header/Header';
+import Footer from '../components/Footer/Footer';
 import BackToHome from '../components/BacktoHome';
-import musicaImg from '../assets/musica.jpg'; 
-import '../styles/Categorias.css';
 
-const categories = [
+
+{/*const categories = [
     { name: 'Música e Shows', events: 257, image: musicaImg },
     
-];
+];*/}
 
 function CategoryCard({ name, events, image }) {
     return (

@@ -3,6 +3,7 @@ import './Footer.css';
 
 function Footer() {
   return (
+    <>
     <footer>
       <div className="footer-container">
         <div>
@@ -40,6 +41,7 @@ function Footer() {
       </div>
       <p className="copyright">&copy; 2025 Festify. Todos os direitos reservados.</p>
     </footer>
+    </>
   );
 }
 

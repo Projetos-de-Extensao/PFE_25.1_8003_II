@@ -1,13 +1,8 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';    
 import BackToHome from '../components/BacktoHome';  
-import Header from '../components/Header';
-import Footer from '../components/Footer';
-import visaLogo from '../assets/visa.svg'; 
-import mastercardLogo from '../assets/mastercard.png';
-import hipercardLogo from '../assets/hipercard.svg';
-import pixLogo from '../assets/pix.png';
-import '../styles/Carrinho.css'; 
+import Header from '../components/Header/Header';
+import Footer from '../components/Footer/Footer';
 
 
 const initialCartItems = [
