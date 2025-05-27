@@ -20,6 +20,7 @@ const ExplorarEventos = () => {
   return (
     <>
       <Header />
+        {BackToHome}
       <section className="explorar">
         <h1>Explorar Eventos</h1>
         <p>Encontre eventos perfeitos para você</p>

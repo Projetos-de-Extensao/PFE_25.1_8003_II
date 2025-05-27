@@ -30,12 +30,7 @@ function LoginPage() {
       {}
       <Header />
 
-      <div className="back-to-home">
-        {}
-        <Link to="/" className="btn-voltar">
-          <i className="fas fa-arrow-left"></i> Voltar para o início
-        </Link>
-      </div>
+        {BackToHome}
 
       <main className="main-login"> {}
         <div className="login-container"> {}

@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-// import BotaoVoltar from '../components/BotaoVoltar'; // Componente não encontrado
+import BackToHome from '../components/BacktoHome';
 import musicaImg from '../assets/musica.jpg'; 
 import '../styles/Categorias.css';
 
@@ -26,7 +26,7 @@ function Categorias() {
     return (
         <>
             <Header />
-            {/* <BotaoVoltar /> */}
+            {BackToHome}
             <section className="container">
                 <h2>Categorias de Eventos</h2>
                 <div className="grid">

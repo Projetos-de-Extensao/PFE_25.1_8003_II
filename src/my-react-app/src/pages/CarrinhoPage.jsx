@@ -34,7 +34,7 @@ function Carrinho() {
     return (
         <> {}
             <Header />
-            {/* <BotaoVoltar /> */}
+              {BackToHome}
             <main className="main">
                 <div className="container">
                     <h2><i className="fas fa-shopping-cart"></i> Carrinho de Compras</h2>

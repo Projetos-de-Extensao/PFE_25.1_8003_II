@@ -17,7 +17,7 @@ function CriarEvento() {
     return (
         <>
             <Header />
-            {/* <BotaoVoltar /> */}
+             {BackToHome}
             <main className="container">
                 <h1>Criar seu evento</h1>
                 <p>Preencha os dados abaixo...</p>
