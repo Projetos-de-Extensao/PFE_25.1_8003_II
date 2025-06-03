@@ -1,29 +1,358 @@
 /* style.css */
 
-html, body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-  }
-  main {
-    flex: 1 0 auto; /* Alterado */
-}
-  
-main {
-  padding: 40px 20px;
-  background-color: #f9f9f9;
-  text-align: center;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+/* ==========================================================================
+   1. RESET GERAL E ESTILOS DE BASE
+   ========================================================================== */
+
+/**
+ * Reseta margens, preenchimentos e define o box-sizing para todos os elementos.
+ * Isso garante um comportamento de dimensionamento mais previsível.
+ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-main h2, main > h1 {
-  font-size: 2.5rem;
-  margin-bottom: 30px;
+/**
+ * Define a altura base para o html e body, permitindo que o layout 
+ * (especialmente o footer fixo) ocupe 100% da altura da tela.
+ * Define a fonte padrão e a cor de fundo para todo o documento.
+ */
+html, body {
+  height: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f4;
   color: #333;
 }
 
+/**
+ * Garante que o body use Flexbox em coluna. Isso é crucial para
+ * a técnica do "sticky footer" (rodapé fixo no final da página).
+ */
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+/* ==========================================================================
+   2. ESTRUTURA PRINCIPAL (HEADER, MAIN, FOOTER)
+   ========================================================================== */
+
+/**
+ * Estilos do Cabeçalho Principal
+ */
+.header {
+  display: flex;
+  justify-content: space-between; /* Espaça os itens (logo, busca, ícones) */
+  align-items: center;
+  flex-wrap: wrap; /* Permite que os itens quebrem para a linha de baixo em telas menores */
+  background: linear-gradient(90deg, #20C4C4, #FF3F7F);
+  padding: 15px 30px;
+  color: white;
+}
+
+.logo-img {
+  height: 50px;
+  border-radius: 15px;
+}
+
+.header-icons a {
+  color: white;
+  margin-left: 15px;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+.header-icons a:hover {
+  color: #e75e1e;
+}
+
+/**
+ * Container principal do conteúdo.
+ * A propriedade `flex: 1 0 auto` faz com que o <main> cresça e ocupe
+ * todo o espaço vertical disponível, empurrando o footer para o final.
+ */
+main {
+  flex: 1 0 auto;
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/**
+ * Estilos do Rodapé
+ */
+footer {
+  background: #1E1E1E;
+  color: #ccc;
+  padding: 2rem;
+  font-size: 0.9rem;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-container div {
+  flex: 1; /* Permite que as colunas cresçam igualmente */
+  min-width: 200px; /* Garante uma largura mínima antes de quebrar a linha */
+}
+
+.footer-container h4 {
+  color: white;
+  margin-bottom: 0.8rem;
+}
+
+.footer-container a {
+  color: #aaa;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-container a:hover {
+  color: #20C4C4;
+}
+
+.social-icons a {
+  color: #ccc;
+  margin-right: 0.7rem;
+  font-size: 1.8rem;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #FFCF00;
+  transform: scale(1.3);
+}
+
+.copyright {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 0.8rem; /* CORRIGIDO: O valor original era "0." */
+}
+
+
+/* ==========================================================================
+   3. COMPONENTES REUTILIZÁVEIS
+   ========================================================================== */
+
+/**
+ * Estilo genérico para títulos de seção.
+ * Inclui uma pequena linha decorativa abaixo.
+ */
+.section-title {
+  font-size: 2.2rem;
+  font-weight: 600;
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+  position: relative;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.section-title::after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 3px;
+  background-color: #e0e0e0;
+  margin: 8px auto 0;
+  border-radius: 1.5px;
+}
+
+/**
+ * Estilos para a Barra de Busca
+ * NOTA: A variável --primary-color não está definida.
+ * Você pode defini-la no seletor :root no topo do arquivo, por exemplo:
+ * :root { --primary-color: #ff6600; }
+ */
+.search-bar {
+  display: flex;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0.5rem;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.search-bar input {
+  flex: 1; /* Faz o input ocupar o espaço restante */
+  border: none;
+  padding: 0.3rem;
+  font-size: 1rem;
+  outline: none; /* Remove a borda ao focar */
+}
+
+.search-bar button {
+  background-color: var(--primary-color, #ff6600); /* Cor primária com um fallback */
+  color: white;
+  border: none;
+  padding: 0 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.search-bar button:hover {
+  background-color: #092a47;
+}
+
+/* ==========================================================================
+   4. SEÇÕES ESPECÍFICAS
+   ========================================================================== */
+
+/**
+ * Menu de Categorias (abaixo do header)
+ */
+.menu-categorias {
+  display: flex;
+  justify-content: center;
+  padding: 15px 0;
+  background-color: #fafafa;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05); /* Sombra sutil */
+}
+
+.menu-categorias ul {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+}
+
+.menu-categorias li {
+  color: #000000;
+  font-size: 14px;
+  cursor: pointer;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.menu-categorias li:hover {
+  color: #e75e1e;
+}
+
+.menu-categorias li span {
+  font-size: 10px;
+  margin-left: 5px;
+}
+
+/**
+ * Seção do Carrossel de Eventos
+ */
+.event-carousel {
+  padding: 2rem;
+  background: #f0f0f0;
+}
+
+.header-carousel {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.header-carousel h2 {
+  font-size: 2rem;
+  color: #222;
+}
+
+.header-carousel a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.carousel-wrapper {
+  position: relative;
+  overflow: hidden;
+  padding: 1rem 0;
+}
+
+.carousel {
+  display: flex;
+  gap: 1.5rem;
+  overflow-x: auto; /* Permite scroll horizontal */
+  scroll-behavior: smooth; /* Animação de rolagem suave */
+  -ms-overflow-style: none;  /* Esconde a barra de rolagem no IE e Edge */
+  scrollbar-width: none;  /* Esconde a barra de rolagem no Firefox */
+}
+
+.carousel::-webkit-scrollbar {
+  display: none; /* Esconde a barra de rolagem no Chrome, Safari e Opera */
+}
+
+.event-card {
+  min-width: 300px;
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  overflow: hidden;
+  flex-shrink: 0; /* Impede que o card encolha */
+  transition: transform 0.3s ease;
+}
+
+.event-card:hover {
+  transform: scale(1.05);
+}
+
+.event-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover; /* Garante que a imagem cubra a área sem distorcer */
+}
+
+.event-card h3 {
+  margin: 0.5rem 1rem;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.event-card p {
+  margin: 0 1rem 1rem;
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Botões de navegação do carrossel */
+.nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #007bff;
+  color: white;
+  border: none;
+  font-size: 2rem;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 10;
+  transition: background-color 0.3s ease;
+}
+
+.nav:hover {
+  background: #0056b3;
+}
+
+.nav.prev {
+  left: 0.5rem;
+}
+
+.nav.next {
+  right: 0.5rem;
+}
+
+
+/**
+ * Seção de Serviços
+ */
 .services-container {
   display: flex;
   flex-wrap: wrap;
@@ -63,29 +392,9 @@ main h2, main > h1 {
   color: #666;
 }
 
-.section-title {
-  font-size: 2.2rem; /* tamanho ainda expressivo, mas menos agressivo */
-  font-weight: 600; /* menos pesado */
-  text-align: center;
-  color: #333; /* um cinza escuro mais suave que preto puro */
-  margin-bottom: 30px;
-  text-transform: none; /* mantém a capitalização original */
-  letter-spacing: 1px;
-  position: relative;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.section-title::after {
-  content: "";
-  display: block;
-  width: 50px;
-  height: 3px;
-  background-color: #e0e0e0; /* linha mais clara e delicada */
-  margin: 8px auto 0;
-  border-radius: 1.5px;
-}
-
-
+/**
+ * Seção de Depoimentos (Testimonials)
+ */
 .testimonials-container {
   display: flex;
   flex-wrap: wrap;
@@ -114,7 +423,7 @@ main h2, main > h1 {
 }
 
 .testimonial-card .fa-star {
-  color: #FFD700;
+  color: #FFD700; /* Cor de estrela (dourado) */
   font-size: 20px;
 }
 
@@ -125,366 +434,94 @@ main h2, main > h1 {
 }
 
 
-
-
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
-  }
-  
-  /* Header */
-  .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: linear-gradient(90deg, #20C4C4, #FF3F7F);
-    padding: 15px 30px;
-    color: white;
-    flex-wrap: wrap;
-  }
-  
-  
-  .logo-img {
-  height: 50px;
-  border-radius:15px
-  }
-  
-  .menu-categorias {
-    display: flex;
-    justify-content: center;
-    padding: 15px 0;
-    background-color: #fafafa;
-  }
-  
-  .menu-categorias ul {
-    list-style: none;
-    display: flex;
-    gap: 40px;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .menu-categorias li {
-    color: #000000;
-    font-size: 14px;
-    cursor: pointer;
-    position: relative;
-  }
-  
-  .menu-categorias li span {
-    font-size: 10px;
-    margin-left: 5px;
-  }
-  
-  .menu-categorias li:hover {
-    color: #e75e1e
-  }
-  
-  
-  .header-icons a {
-    color: white;
-    margin-left: 15px;
-    font-size: 1.2rem;
-  }
-  
-  .header-icons a:hover {
-    color: #e75e1e
-    }
-  
-    .search-bar {
-      display: flex;
-      max-width: 900px;
-      margin: 0 auto;
-      padding: 0.5rem;
-      background-color: white;
-      border-radius: 8px;
-      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-    }
-    
-    .search-bar input {
-      flex: 1;
-      border: none;
-      padding: 0.3rem;
-      font-size:1rem;
-      outline: none;
-    }
-    
-    .search-bar button {
-      background-color: var(--primary-color); /* Ex: #ff4d00 */
-      color: white;
-      border: none;
-      padding: 0 1rem;
-      border-radius: 6px;
-      cursor: pointer;
-      transition: background-color 0.3s ease;
-    }
-    
-    .search-bar button:hover {
-      background-color: #092a47; /* Hover mais escuro */
-    }
-    
-  
-  .event-carousel {
-  padding: 2rem;
-  background: #f0f0f0;
-  font-family: Arial, sans-serif;
+/**
+ * Seção da Newsletter
+ */
+.newsletter-section {
+  background-color: #fafafa;
+  padding: 50px 20px;
 }
 
-.header-carousel {
+.newsletter-container {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  margin-bottom: 1rem;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
-.header-carousel h2 {
-  font-size: 2rem;
-  color: #222;
+.newsletter-text {
+  max-width: 500px;
 }
 
-.header-carousel a {
-  color: #007bff;
-  text-decoration: none;
+.newsletter-text h2 {
+  font-size: 28px;
   font-weight: bold;
+  margin-bottom: 10px;
+  color: #000000;
 }
 
-.carousel-wrapper {
-  position: relative;
-  overflow: hidden;
-  padding: 1rem 0;
+.newsletter-text p {
+  color: #000000;
+  font-size: 16px;
+  line-height: 1.5;
 }
 
-.carousel {
-  display: flex;
-  gap: 1.5rem;
-  overflow-x: auto;
-  scroll-behavior: smooth;
-  scrollbar-width: none;
-  padding: 0 1rem;
-}
-
-.carousel::-webkit-scrollbar {
-  display: none;
-}
-
-.event-card {
-  min-width: 300px;
-  background: #fff;
-  border-radius: 15px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-  overflow: hidden;
-  flex-shrink: 0;
-  transition: transform 0.3s ease;
-}
-
-.event-card:hover {
-  transform: scale(1.05);
-}
-
-.event-card img {
+.newsletter-form {
+  max-width: 500px;
   width: 100%;
-  height: 200px;
-  object-fit: cover;
 }
 
-.event-card h3 {
-  margin: 0.5rem;
-  font-size: 1.5rem;
-  color: #333;
+.newsletter-form label {
+  display: block;
+  font-size: 12px;
+  color: #000000;
+  margin-bottom: 5px;
 }
 
-.event-card p {
-  margin: 0 0.5rem 0.5rem;
-  font-size: 1rem;
+.input-group {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.input-group input[type="email"] {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #000;
+  border-right: none;
+  font-size: 14px;
+}
+
+.input-group button {
+  padding: 0 20px;
+  background-color: #ff6600;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.input-group button:hover {
+  background-color: #e65c00;
+}
+
+.checkbox-group {
+  display: flex;
+  align-items: flex-start;
+  font-size: 12px;
   color: #555;
 }
 
-.nav {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  background: #007bff;
-  color: white;
-  border: none;
-  font-size: 2rem;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  cursor: pointer;
-  z-index: 1;
-  transition: background 0.3s ease;
+.checkbox-group input[type="checkbox"] {
+  margin-right: 8px;
+  margin-top: 2px;
 }
 
-.nav:hover {
-  background: #0056b3;
+.checkbox-group a {
+  color: #000;
+  text-decoration: underline;
 }
-
-.nav.prev {
-  left: 0.5rem;
-}
-
-.nav.next {
-  right: 0.5rem;
-}
-
-
-  
-  
-  
-  .newsletter-section {
-    background-color: #fafafa;; /* cor de fundo clara */
-    padding: 50px 20px;
-  }
-  
-  .newsletter-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    max-width: 1200px;
-    margin: 0 auto;
-    flex-wrap: wrap;
-  }
-  
-  .newsletter-text {
-    max-width: 500px;
-  }
-  
-  .newsletter-text h2 {
-    font-size: 28px;
-    font-weight: bold;
-    margin-bottom: 10px;
-    color: #000000;
-  }
-  
-  .newsletter-text p {
-    color: #000000;
-    font-size: 16px;
-    line-height: 1.5;
-  }
-  
-  .newsletter-form {
-    max-width: 500px;
-    width: 100%;
-  }
-  
-  .newsletter-form label {
-    display: block;
-    font-size: 12px;
-    color: #000000;
-    margin-bottom: 5px;
-  }
-  
-  .input-group {
-    display: flex;
-    margin-bottom: 10px;
-  }
-  
-  .input-group input[type="email"] {
-    flex: 1;
-    padding: 10px;
-    border: 1px solid #000;
-    border-right: none;
-    font-size: 14px;
-  }
-  
-  .input-group button {
-    padding: 0 20px;
-    background-color: #ff6600; /* laranja vibrante */
-    color: #fff;
-    font-weight: bold;
-    border: none;
-    cursor: pointer;
-    font-size: 14px;
-  }
-  
-  .input-group button:hover {
-    background-color: #e65c00;
-  }
-  
-  .checkbox-group {
-    display: flex;
-    align-items: flex-start;
-    font-size: 12px;
-    color: #555;
-  }
-  
-  .checkbox-group input[type="checkbox"] {
-    margin-right: 8px;
-    margin-top: 2px;
-  }
-  
-  .checkbox-group a {
-    color: #000;
-    text-decoration: underline;
-  }
-  
-  
-  
-  
-  section {
-    margin-bottom: 2rem;
-    background-color: white;
-    padding: 1rem;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  }
-  
-  footer {
-    background: #1E1E1E;
-    color: #ccc;
-    padding: 2rem;
-    font-size: 0.9rem;
-  }
-  
-  .footer-container {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 2rem;
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-  
-  .footer-container div {
-    flex: 1;
-    min-width: 200px;
-  }
-  
-  .footer-container h4 {
-    color: white;
-    margin-bottom: 0.8rem;
-  }
-  
-  .footer-container a {
-    color: #aaa;
-    text-decoration: none;
-  }
-  
-  .footer-container a:hover {
-    color: #20C4C4;
-  }
-  
-  .social-icons a {
-    color: #ccc;
-    margin-right: 0.7rem;
-    font-size: 1.8rem;
-  }
-  
-  .social-icons a:hover {
-    color: #FFCF00;
-    transform: scale(1.3);
-  }
-  
-  .copyright {
-    text-align: center;
-    margin-top: 1rem;
-    font-size: 0.
-  }
-  

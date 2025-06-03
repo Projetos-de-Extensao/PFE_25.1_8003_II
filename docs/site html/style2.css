@@ -1,233 +1,324 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-  }
-  
-  body {
-    background-color: #f4f4f4;;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
- }
- 
-    .main {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-  }
-  
-  /* Header */
-  .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: linear-gradient(90deg, #20C4C4, #FF3F7F);
-    padding: 15px 30px;
-    color: white;
-    flex-wrap: wrap;
-  }
-  
-  .logo img {
-    height: 50px;
-    border-radius: 15px;
-  }
-  
+/* ============================================= */
+/* ===== ESTILOS GLOBAIS E LAYOUT DA PÁGINA ===== */
+/* ============================================= */
 
-  .header-icons a {
-    color: white;
-    margin-left: 15px;
-    font-size: 1.2rem;
-  }
-  
-  .header-icons a:hover {
-    color: #e75e1e
-    }
-  
-  /* Search Bar */
-  .search-bar {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 500px;
-    width: 100%;
-    background-color: white;
-    border-radius: 25px;
-    overflow: hidden;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
-  }
-  
-  .search-bar input[type="text"] {
-    border: none;
-    padding: 0.6rem 1rem;
-    flex-grow: 1;
-    font-size: 1rem;
-    border-radius: 25px 0 0 25px;
-    outline: none;
-  }
-  
-  .search-bar button {
-    background-color: black;
-    border: none;
-    color: white;
-    padding: 0.6rem 1rem;
-    cursor: pointer;
-    font-size: 1rem;
-    border-radius: 0 25px 25px 0;
-  }
-  
-  .search-bar button:hover {
-    background-color: #c04600;
-  }
-  
-  /* Formulário de login */
-  .container {
-    width: 100%;
-    max-width: 360px;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px #ddd;
-    text-align: center;
-    background-color: #fff;
-  }
-  
-  h2 {
-    color: #ff6600;
-    margin-bottom: 25px;
-  }
-  
-  .input-group {
-    position: relative;
-    margin-bottom: 15px;
-  }
-  
-  .input-group i {
-    position: absolute;
-    left: 10px;
-    top: 50%;
-    transform: translateY(-50%);
-    color: #999;
-  }
-  
-  .input-group input {
-    width: 100%;
-    padding: 10px 10px 10px 35px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
-  
-  .toggle-password {
-    right: 10px;
-    left: auto;
-    cursor: pointer;
-  }
-  
-  .btn-login {
-    width: 100%;
-    background-color: #ff6600;
-    color: white;
-    border: none;
-    padding: 12px;
-    font-weight: bold;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-top: 10px;
-  }
-  
-  .btn-login i {
-    margin-right: 8px;
-  }
-  
-  .forgot-password {
-    text-align: right;
-    margin: 10px 0;
-  }
-  
-  .forgot-password a {
-    font-size: 0.9em;
-    color: #666;
-    text-decoration: none;
-  }
-  
-  .divider {
-    margin: 20px 0;
-    position: relative;
-    text-align: center;
-  }
-  
-  .divider span {
-    background: #fff;
-    padding: 0 10px;
-    color: #999;
-    position: relative;
-    z-index: 1;
-  }
-  
-  .divider::before {
-    content: '';
-    height: 1px;
-    background: #ccc;
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 50%;
-    z-index: 0;
-  }
-  
-  .btn-social {
-    width: 100%;
-    padding: 10px;
-    margin: 8px 0;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-weight: bold;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-  }
-  
-  .google {
-    border-color: #db4437;
-    color: #db4437;
-  }
-  
-  .apple {
-    border-color: #000;
-    color: #000;
-  }
-  
-  .register {
-    margin-top: 20px;
-    font-size: 0.9em;
-  }
-  
-  .register a {
-    color: #ff6600;
-    text-decoration: none;
-    font-weight: bold;
-  }
-  
-  .back-to-home {
-    margin: 20px 30px;
-  }
-  
-  .btn-voltar {
-    color: #000000;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 1rem;
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  }
-  
-  .btn-voltar i {
-    margin-right: 5px;
-  }
-  
-  .btn-voltar:hover {
-    text-decoration: underline;
-  }
+/*
+ * Seletor universal (*) para aplicar um "reset" básico.
+ * - box-sizing: border-box; faz com que padding e border não aumentem a largura final do elemento.
+ * - margin: 0; e padding: 0; removem espaçamentos padrão dos navegadores.
+ * - font-family: Define uma fonte padrão para toda a página.
+*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/*
+ * Estilização do corpo (body) da página.
+ * - background-color: Define uma cor de fundo cinza claro.
+ * - min-height: 100vh; Garante que o corpo ocupe no mínimo 100% da altura da tela.
+ * - display: flex; e flex-direction: column; criam um layout de coluna,
+     essencial para um "sticky footer" (rodapé fixo no final da página).
+*/
+body {
+  background-color: #f4f4f4;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/*
+ * Container principal do conteúdo.
+ * - flex: 1; Faz com que este elemento cresça e ocupe todo o espaço vertical
+     disponível entre o header e o footer.
+ * - display: flex; justify-content e align-items centram o conteúdo (neste caso, o formulário)
+     na área principal.
+*/
+.main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+/* ================== */
+/* ===== HEADER ===== */
+/* ================== */
+
+/*
+ * Estilização do cabeçalho.
+ * - display: flex; organiza os itens internos (logo, busca, ícones).
+ * - justify-content: space-between; distribui os itens, colocando espaço entre eles.
+ * - background: linear-gradient(...); Cria um fundo com gradiente de cores.
+ * - flex-wrap: wrap; Permite que os itens quebrem para a linha de baixo em telas menores.
+*/
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(90deg, #20C4C4, #FF3F7F);
+  padding: 15px 30px;
+  color: white;
+  flex-wrap: wrap;
+}
+
+.logo img {
+  height: 50px;
+  border-radius: 15px; /* Bordas arredondadas para a logo */
+}
+
+.header-icons a {
+  color: white;
+  margin-left: 15px; /* Espaçamento entre os ícones */
+  font-size: 1.2rem;
+  transition: color 0.3s; /* Adicionado para uma transição suave na cor */
+}
+
+.header-icons a:hover {
+  color: #e75e1e; /* Efeito visual ao passar o mouse */
+}
+
+/* ======================== */
+/* ===== BARRA DE BUSCA ===== */
+/* ======================== */
+
+/*
+ * Container da barra de busca.
+ * - max-width: Limita a largura máxima.
+ * - border-radius: 25px; e overflow: hidden; criam o formato de "pílula".
+ * - box-shadow: Adiciona uma sombra sutil para dar profundidade.
+*/
+.search-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 500px;
+  width: 100%;
+  background-color: white;
+  border-radius: 25px;
+  overflow: hidden;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+/* Input de texto da busca */
+.search-bar input[type="text"] {
+  border: none;
+  padding: 0.6rem 1rem;
+  flex-grow: 1; /* Faz o input ocupar o máximo de espaço possível */
+  font-size: 1rem;
+  border-radius: 25px 0 0 25px; /* Arredonda apenas os cantos esquerdos */
+  outline: none; /* Remove a borda de foco do navegador */
+}
+
+/* Botão da busca */
+.search-bar button {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 0.6rem 1rem;
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 0 25px 25px 0; /* Arredonda apenas os cantos direitos */
+  transition: background-color 0.3s; /* Transição suave */
+}
+
+.search-bar button:hover {
+  background-color: #c04600;
+}
+
+/* =============================== */
+/* ===== FORMULÁRIO DE LOGIN ===== */
+/* =============================== */
+
+/* Container geral do formulário */
+.container {
+  width: 100%;
+  max-width: 360px; /* Largura máxima do formulário */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #ddd; /* Sombra suave */
+  text-align: center;
+  background-color: #fff;
+}
+
+h2 {
+  color: #ff6600; /* Cor de destaque para o título */
+  margin-bottom: 25px;
+}
+
+/*
+ * Grupo de input (ícone + campo de texto).
+ * - position: relative; é crucial para permitir o posicionamento absoluto do ícone (<i>)
+     dentro deste container.
+*/
+.input-group {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+/*
+ * Ícone dentro do grupo de input.
+ * - position: absolute; o posiciona em relação ao .input-group.
+ * - top: 50%; e transform: translateY(-50%); centralizam o ícone verticalmente.
+*/
+.input-group i {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #999;
+}
+
+/* Campo de input */
+.input-group input {
+  width: 100%;
+  padding: 10px 10px 10px 35px; /* Padding à esquerda para não sobrepor o ícone */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Classe específica para o ícone de "mostrar/ocultar senha" */
+.toggle-password {
+  right: 10px;
+  left: auto; /* Reseta a propriedade 'left' para que 'right' funcione */
+  cursor: pointer;
+}
+
+/* Botão principal de Login */
+.btn-login {
+  width: 100%;
+  background-color: #ff6600;
+  color: white;
+  border: none;
+  padding: 12px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s; /* Transição suave */
+}
+
+.btn-login:hover {
+    background-color: #e65c00; /* Escurece um pouco no hover */
+}
+
+.btn-login i {
+  margin-right: 8px; /* Espaço entre o ícone e o texto do botão */
+}
+
+/* Link de "Esqueci minha senha" */
+.forgot-password {
+  text-align: right;
+  margin: 10px 0;
+}
+
+.forgot-password a {
+  font-size: 0.9em;
+  color: #666;
+  text-decoration: none;
+}
+
+/*
+ * Divisor com texto no meio (ex: "OU").
+ * Usa um truque com pseudo-elementos para criar as linhas laterais.
+*/
+.divider {
+  margin: 20px 0;
+  position: relative;
+  text-align: center;
+}
+
+/* A linha do divisor, criada com o pseudo-elemento ::before */
+.divider::before {
+  content: '';
+  height: 1px;
+  background: #ccc;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  z-index: 0; /* Coloca a linha atrás do texto */
+}
+
+/* O texto do divisor (span) */
+.divider span {
+  background: #fff; /* Fundo branco para "cortar" a linha */
+  padding: 0 10px;
+  color: #999;
+  position: relative;
+  z-index: 1; /* Coloca o texto na frente da linha */
+}
+
+/* Botões de login com redes sociais */
+.btn-social {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px; /* Espaçamento entre o ícone e o texto */
+  background-color: #fff; /* Fundo branco por padrão */
+  transition: background-color 0.3s, color 0.3s; /* Transição suave */
+}
+
+.google {
+  border-color: #db4437;
+  color: #db4437;
+}
+.google:hover {
+    background-color: #db4437;
+    color: #fff;
+}
+
+.apple {
+  border-color: #000;
+  color: #000;
+}
+.apple:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+/* Seção de registro */
+.register {
+  margin-top: 20px;
+  font-size: 0.9em;
+}
+
+.register a {
+  color: #ff6600;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* ================================== */
+/* ===== LINKS E BOTÕES DIVERSOS ===== */
+/* ================================== */
+
+.back-to-home {
+  margin: 20px 30px;
+}
+
+.btn-voltar {
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn-voltar i {
+  margin-right: 5px;
+}
+
+.btn-voltar:hover {
+  text-decoration: underline;
+}
