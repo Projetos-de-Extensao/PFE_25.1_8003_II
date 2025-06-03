@@ -1,4 +1,4 @@
- {
+{
   "events": [
     {
       "id": 1,
@@ -17,6 +17,36 @@
       "name": "Tech Conference",
       "date": "2023-10-10",
       "location": "Convention Center C"
+    },
+    {
+      "id": 4,
+      "name": "Festival de Teatro",
+      "date": "2023-10-15",
+      "location": "Teatro Municipal"
+    },
+    {
+      "id": 5,
+      "name": "Feira de Livros",
+      "date": "2023-10-20",
+      "location": "Praça Central"
+    },
+    {
+      "id": 6,
+      "name": "Show de Stand-up",
+      "date": "2023-10-22",
+      "location": "Comedy Club"
+    },
+    {
+      "id": 7,
+      "name": "Workshop de Fotografia",
+      "date": "2023-10-25",
+      "location": "Espaço Cultural"
+    },
+    {
+      "id": 8,
+      "name": "Festival Gastronômico",
+      "date": "2023-10-28",
+      "location": "Parque da Cidade"
     }
   ]
 }
