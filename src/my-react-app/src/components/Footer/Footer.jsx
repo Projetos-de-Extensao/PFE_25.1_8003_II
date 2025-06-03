@@ -1,9 +1,8 @@
-import React from 'react';
+
 import './Footer.css'; 
 
 function Footer() {
   return (
-    <>
     <footer>
       <div className="footer-container">
         <div>
@@ -33,15 +32,14 @@ function Footer() {
         <div>
           <h4>Redes sociais</h4>
           <div className="social-icons">
-            <a href="#"><i className="fab fa-facebook-f"></i></a>
-            <a href="#"><i className="fab fa-instagram"></i></a>
-            <a href="#"><i className="fab fa-twitter"></i></a>
+            <a href="#" aria-label="Facebook"><i className="fab fa-facebook-f"></i></a>
+            <a href="#" aria-label="Instagram"><i className="fab fa-instagram"></i></a>
+            <a href="#" aria-label="Twitter"><i className="fab fa-twitter"></i></a>
           </div>
         </div>
       </div>
       <p className="copyright">&copy; 2025 Festify. Todos os direitos reservados.</p>
     </footer>
-    </>
   );
 }
 
