@@ -5,6 +5,7 @@ import CarrinhoPage from './pages/CarrinhoPage';
 import './App.css';
 import CategoriasPage from './pages/CategoriasPage';
 import CriarEventoPage from './pages/CriarEventoPage';
+import ExplorarPage from './pages/ExplorarPage';
 
 
 function App() {
@@ -16,9 +17,15 @@ function App() {
         <Route path="/categorias" element={<CategoriasPage />} />
         <Route path="/carrinho" element={<CarrinhoPage />} />
         <Route path="/criar-evento" element={<CriarEventoPage/>} />
+        <Route path="/explorar" element={<ExplorarPage/>} />
+
       </Routes>
     </Router>
   );
 }
 
 export default App;
+
+
+
+
