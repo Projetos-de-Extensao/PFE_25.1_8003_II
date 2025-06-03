@@ -12,12 +12,8 @@ function Home() {
     <>
       <Header />
       <Menu/>
-<<<<<<< HEAD
-      <EventCard/>
-=======
        <DepoimentosSection/>
       <Newsletter/>
->>>>>>> 7d27cdb451bacbfacd1131ef3322ac8c17ad07a4
       <Footer />
     </>
   );
