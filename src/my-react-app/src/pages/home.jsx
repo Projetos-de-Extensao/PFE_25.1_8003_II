@@ -1,27 +1,26 @@
-
 import React from 'react';
-import Header from '../components/Header'; 
-import CategoryMenu from '../components/Menu'; 
-import EventCarousel from '../components/Carrossel'; 
+import Header from '../components/Header/Header'; 
+{/*import CategoryMenu from '../components/Menu/Menu'; 
+import EventCarousel from '../components/Carrossel/Carrossel'; 
 import ServicesSection from '../components/ServicesSection';
 import TestimonialsSection from '../components/TestimonialsSection';
-import NewsletterSection from '../components/Newsletter'; 
-import Footer from '../components/Footer';
+import NewsletterSection from '../components/Newsletter/Newsletter'; */}
+import Footer from '../components/Footer/Footer';
 
 
 
-function home() {
+function Home() {
   return (
     <>
       <Header />
-      <CategoryMenu />
+      {/*<CategoryMenu />
       <EventCarousel />
       <ServicesSection />
       <TestimonialsSection />
       <NewsletterSection />
-      <Footer />
+      <Footer /> */}
     </>
   );
 }
 
-export default home;
+export default Home;
