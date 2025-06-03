@@ -1,0 +1,102 @@
+.event-carousel {
+  padding: 2rem;
+  background: #f0f0f0;
+}
+
+.header-carousel {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.header-carousel h2 {
+  font-size: 2rem;
+  color: #222;
+}
+
+.header-carousel a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.carousel-wrapper {
+  position: relative;
+  overflow: hidden;
+  padding: 1rem 0;
+}
+
+.carousel {
+  display: flex;
+  gap: 1.5rem;
+  overflow-x: auto; /* Permite scroll horizontal */
+  scroll-behavior: smooth; /* Animação de rolagem suave */
+  -ms-overflow-style: none;  /* Esconde a barra de rolagem no IE e Edge */
+  scrollbar-width: none;  /* Esconde a barra de rolagem no Firefox */
+}
+
+.carousel::-webkit-scrollbar {
+  display: none; /* Esconde a barra de rolagem no Chrome, Safari e Opera */
+}
+
+.event-card {
+  min-width: 300px;
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  overflow: hidden;
+  flex-shrink: 0; /* Impede que o card encolha */
+  transition: transform 0.3s ease;
+}
+
+.event-card:hover {
+  transform: scale(1.05);
+}
+
+.event-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover; /* Garante que a imagem cubra a área sem distorcer */
+}
+
+.event-card h3 {
+  margin: 0.5rem 1rem;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.event-card p {
+  margin: 0 1rem 1rem;
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Botões de navegação do carrossel */
+.nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #007bff;
+  color: white;
+  border: none;
+  font-size: 2rem;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 10;
+  transition: background-color 0.3s ease;
+}
+
+.nav:hover {
+  background: #0056b3;
+}
+
+.nav.prev {
+  left: 0.5rem;
+}
+
+.nav.next {
+  right: 0.5rem;
+}
