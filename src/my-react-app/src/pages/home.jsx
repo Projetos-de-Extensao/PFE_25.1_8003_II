@@ -12,7 +12,8 @@ function Home() {
     <>
       <Header />
       <Menu/>
-       <DepoimentosSection/>
+      <DepoimentosSection/>
+      <EventCard/>
       <Newsletter/>
       <Footer />
     </>
