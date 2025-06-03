@@ -1,0 +1,22 @@
+ {
+  "events": [
+    {
+      "id": 1,
+      "name": "Concert",
+      "date": "2023-10-01",
+      "location": "Stadium A"
+    },
+    {
+      "id": 2,
+      "name": "Art Exhibition",
+      "date": "2023-10-05",
+      "location": "Gallery B"
+    },
+    {
+      "id": 3,
+      "name": "Tech Conference",
+      "date": "2023-10-10",
+      "location": "Convention Center C"
+    }
+  ]
+}
