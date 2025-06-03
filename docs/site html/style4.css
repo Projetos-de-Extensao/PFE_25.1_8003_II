@@ -1,40 +1,11 @@
- * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
-  }
-  
-  /* Header */
-  .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: linear-gradient(90deg, #20C4C4, #FF3F7F);
-    padding: 15px 30px;
-    color: white;
-    flex-wrap: wrap;
-  }
-  
-  
-  .logo-img {
-  height: 50px;
-  border-radius:15px
-  }
-
-
-/* Reset básico */
+/* ------------------ RESET BÁSICO ------------------ */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* ------------------ ESTILO GERAL ------------------ */
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: #f9f9fb;
@@ -43,7 +14,23 @@ body {
   padding: 2rem;
 }
 
-/* Container principal */
+/* ------------------ HEADER ------------------ */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(90deg, #20C4C4, #FF3F7F);
+  padding: 15px 30px;
+  color: white;
+  flex-wrap: wrap;
+}
+
+.logo-img {
+  height: 50px;
+  border-radius: 15px;
+}
+
+/* ------------------ CONTAINER PRINCIPAL ------------------ */
 .container {
   max-width: 800px;
   margin: auto;
@@ -53,14 +40,13 @@ body {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
 }
 
-/* Títulos */
+/* ------------------ TÍTULOS ------------------ */
 h1 {
   font-size: 2rem;
   margin-bottom: 1rem;
   color: #1a1a1a;
-  text-align: center; /* Centraliza o título */
+  text-align: center;
 }
-
 
 h2 {
   font-size: 1.4rem;
@@ -74,7 +60,7 @@ h2 {
   color: #666;
 }
 
-/* Seções do formulário */
+/* ------------------ FORMULÁRIO ------------------ */
 .form-section {
   margin-bottom: 2.5rem;
 }
@@ -144,7 +130,7 @@ select:focus {
   background-color: #dcd7ff;
 }
 
-/* Upload box */
+/* Área de upload de imagem/arquivo */
 .upload-box {
   border: 2px dashed #ccc;
   padding: 2rem;
@@ -157,65 +143,13 @@ select:focus {
 }
 
 .upload-box:hover {
-  border-color: #7b5aff
- }
-  
+  border-color: #7b5aff;
+}
 
-   footer {
-    background: #1E1E1E;
-    color: #ccc;
-    padding: 2rem;
-    font-size: 0.9rem;
-  }
-  
-  .footer-container {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 2rem;
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-  
-  .footer-container div {
-    flex: 1;
-    min-width: 200px;
-  }
-  
-  .footer-container h4 {
-    color: white;
-    margin-bottom: 0.8rem;
-  }
-  
-  .footer-container a {
-    color: #aaa;
-    text-decoration: none;
-  }
-  
-  .footer-container a:hover {
-    color: #20C4C4;
-  }
-  
-  .social-icons a {
-    color: #ccc;
-    margin-right: 0.7rem;
-    font-size: 1.8rem;
-  }
-  
-  .social-icons a:hover {
-    color: #FFCF00;
-    transform: scale(1.3);
-  }
-  
-  .copyright {
-    text-align: center;
-    margin-top: 1rem;
-    font-size: 0.
-  }
-
-  .submit-btn {
-  display: block; /* Faz o botão ocupar linha própria */
-  margin: 2rem auto 0 auto; /* Centraliza horizontalmente */
+/* ------------------ BOTÃO DE ENVIO ------------------ */
+.submit-btn {
+  display: block;
+  margin: 2rem auto 0 auto;
   padding: 1rem 2rem;
   background: linear-gradient(135deg, #4e73df, #1cc88a);
   color: white;
@@ -234,23 +168,76 @@ select:focus {
   box-shadow: 0 10px 18px rgba(0, 0, 0, 0.15);
 }
 
+/* ------------------ VOLTAR AO INÍCIO ------------------ */
+.back-to-home {
+  margin: 20px 30px;
+}
 
- .back-to-home {
-    margin: 20px 30px;
-  }
-  
-  .btn-voltar {
-    color: #000000;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 1rem;
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  }
-  
-  .btn-voltar i {
-    margin-right: 5px;
-  }
-  
-  .btn-voltar:hover {
-    text-decoration: underline;
-  }
+.btn-voltar {
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn-voltar i {
+  margin-right: 5px;
+}
+
+.btn-voltar:hover {
+  text-decoration: underline;
+}
+
+/* ------------------ FOOTER ------------------ */
+footer {
+  background: #1E1E1E;
+  color: #ccc;
+  padding: 2rem;
+  font-size: 0.9rem;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-container div {
+  flex: 1;
+  min-width: 200px;
+}
+
+.footer-container h4 {
+  color: white;
+  margin-bottom: 0.8rem;
+}
+
+.footer-container a {
+  color: #aaa;
+  text-decoration: none;
+}
+
+.footer-container a:hover {
+  color: #20C4C4;
+}
+
+.social-icons a {
+  color: #ccc;
+  margin-right: 0.7rem;
+  font-size: 1.8rem;
+}
+
+.social-icons a:hover {
+  color: #FFCF00;
+  transform: scale(1.3);
+}
+
+.copyright {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 0.9rem;
+}
