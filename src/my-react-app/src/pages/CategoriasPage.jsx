@@ -10,7 +10,7 @@ function CategoriasPage() {
     <>
       <Header />
       <BackToHome/>
-       <CategoriasEventos/>
+      <CategoriasEventos/>
       <Footer />
     </>
   );
