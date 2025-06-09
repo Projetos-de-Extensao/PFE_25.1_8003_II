@@ -1,7 +1,17 @@
-import { Link } from 'react-router-dom';
+// src/my-react-app/src/components/Explorar/Explorar.jsx
+
+import React from 'react';
 import './Explorar.css';
 
-function Explorar() {
+// Receba as props para controlar os filtros
+function Explorar({ searchTerm, setSearchTerm, category, setCategory }) {
+  
+  const handleClearFilters = () => {
+    setSearchTerm('');
+    setCategory('');
+    // Limpe outros estados de filtro aqui
+  };
+
   return (
     <section className="explorar">
       <h1>Explorar Eventos</h1>
@@ -12,37 +22,35 @@ function Explorar() {
 
         <div className="filtro">
           <label htmlFor="busca">Buscar</label>
-          <input type="text" id="busca" placeholder="Eventos, locais..." />
+          <input
+            type="text"
+            id="busca"
+            placeholder="Eventos, locais..."
+            value={searchTerm}
+            onChange={(e) => setSearchTerm(e.target.value)}
+          />
         </div>
 
         <div className="filtro">
           <label htmlFor="categoria">Categoria</label>
-          <select id="categoria">
-            <option>Todas as categorias</option>
+          <select 
+            id="categoria"
+            value={category}
+            onChange={(e) => setCategory(e.target.value)}
+          >
+            <option value="">Todas as categorias</option>
+            <option value="Concert">Show</option>
+            <option value="Art Exhibition">Arte e Cultura</option>
+            <option value="Tech Conference">Tecnologia</option>
+            {/* Adicione outras categorias conforme necessário */}
           </select>
         </div>
+        
+        {/* Outros filtros podem ser adicionados aqui da mesma forma */}
 
-        <div className="filtro">
-          <label>Preço: R$ 0 - R$ 200</label>
-          <input type="range" min="0" max="200" defaultValue="200" id="preco" className="slider" />
-          <div className="preco-info">
-            <span>R$ 0</span>
-            <span>R$ 200+</span>
-          </div>
-        </div>
-
-        <div className="filtro">
-          <label htmlFor="data">Data</label>
-          <select id="data">
-            <option>Qualquer data</option>
-          </select>
-        </div>
-
-        <button className="limpar">Limpar filtros</button>
+        <button className="limpar" onClick={handleClearFilters}>Limpar filtros</button>
       </div>
     </section>
-
-  
   );
 }
 
