@@ -41,6 +41,8 @@ function Explorar() {
         <button className="limpar">Limpar filtros</button>
       </div>
     </section>
+
+  
   );
 }
 

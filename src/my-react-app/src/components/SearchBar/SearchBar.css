@@ -1,0 +1,32 @@
+.search-bar {
+  display: flex;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0.5rem;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.search-bar input {
+  flex: 1;
+  border: none;
+  padding: 0.3rem;
+  font-size: 1rem;
+  outline: none;
+}
+
+.search-bar button {
+  /* Note: var(--primary-color) não está definido neste CSS. Você precisaria defini-lo em um arquivo global ou aqui. */
+  background-color: #FF3F7F; /* Usando uma cor do gradiente do header como exemplo */
+  color: white;
+  border: none;
+  padding: 0 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.search-bar button:hover {
+  background-color: #092a47;
+}
