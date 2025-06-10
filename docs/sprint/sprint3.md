@@ -11,42 +11,10 @@ title: Sprint 3
 ### Lista de Tarefas da Sprint
 
 | Tarefa                                                                                       | Responsabilidade |
-| -------------------------------------------------------------------------------------------- | ---------------- |
-| Decidir o nome o projeto.                                                                    | Todos            |
-| Criar o repositório nos padrões (Organizar wiki).                                          | xxx              |
-| Criar issues no GitHub / ZenHub                                                              | xxx              |
-| Configuração do grupo do Telegram(configurar bot).                                         | xxx              |
-| Estudar e escolher as metodologias.                                                          | Todos            |
-| [Documento de visão](https://github.com/xxx/xxx.md)                                            | XXX e XXXXX      |
-| Elaborar[5w2H](https://github.com/xxx/xxx.md)                                                   | XXX e XXXXX      |
-| [Mapas Mentais](https://github.com/xxx/xxx.md)                                                  | XXX e XXXXX      |
-| [Brainstorming](https://github.com/UnBArqDsw/2020.1_G7_TCM/blob/master/docs/base/Brainstorm.md) | Todos            |
-| [Entrevistas](https://github.com/xxx/xxx.md)                                                    | XXX e XXXXX      |
-| [Prototipação.](https://github.com/xxx/xxx.md)                                                | XXX e XXXXX      |
-
-## Sprint Retrospective/Review Meeting
-
-#### Presentes na reunião: XXXX
-
-### Dividas da Interação
-
-### Riscos Encontrados
-
-- Nenhum: Plano de gerenciamento de riscos não implementado.
-
-### Pontos Positivos
-
-![pontos positivos](../assets/Sprints/S1-positivos.png)
-
-### Pontos Negativos
-
-![pontos negativos](../assets/Sprints/S1-negativos.png)
-
-### O que podemos melhorar?
-
-- Ter mais foco na reuniões para evitar o desperdício de tempo.
-- A equipe deve ter mais autonomia em relação à falta de membros.
-- Podemos utilizar algo ferramenta de timebox para maior efetividade nas reuniões, sugestão: https://timebox.cedrotech.com/
+|Cadastro de Usuário: Como visitante, quero poder me cadastrar no site usando meu e-mail e senha para ter uma conta.
+|Login/Logout: Como usuário cadastrado, quero poder fazer login para acessar minha conta e fazer logout de forma segura.
+|Validação de Formulários: Implementar validações nos formulários de login e cadastro (ex: e-mail válido, senha forte).
+|Área "Minha Conta" Simples: Criar uma página de perfil de usuário (ainda sem muitos detalhes) acessível apenas após o login.                                                  
 
 ### Ferramentas utilizadas
 

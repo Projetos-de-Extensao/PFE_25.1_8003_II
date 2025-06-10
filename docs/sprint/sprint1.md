@@ -23,24 +23,6 @@ title: Sprint 1
 | [Entrevistas](https://github.com/xxx/xxx.md)                                                    |  XXXXX      |
 | [Prototipação.](https://github.com/xxx/xxx.md)                                                |  Roberto Ramos e Antonio José    |
 
-## Sprint Retrospective/Review Meeting
-
-#### Presentes na reunião: Todos os integrantes do grupo.
-
-### Dividas da Sprint
-
-### Riscos Encontrados
-
-- Nenhum: Plano de gerenciamento de riscos não implementado.
-
-### Pontos Positivos
-
-![pontos positivos](../assets/Sprints/S1-positivos.png)
-
-### Pontos Negativos
-
-![pontos negativos](../assets/Sprints/S1-negativos.png)
-
 ### O que podemos melhorar?
 
 - Ter mais foco na reuniões para evitar o desperdício de tempo.

@@ -6,47 +6,16 @@ title: Sprint 4
 
 ## Planejamento de Sprint
 
-#### Presentes na reunião: XXXXX
+#### Presentes na reunião: 
 
 ### Lista de Tarefas da Sprint
 
 | Tarefa                                                                                       | Responsabilidade |
-| -------------------------------------------------------------------------------------------- | ---------------- |
-| Decidir o nome o projeto.                                                                    | Todos            |
-| Criar o repositório nos padrões (Organizar wiki).                                          | xxx              |
-| Criar issues no GitHub /                                                                     | xxx              |
-| Configuração do grupo do Telegram(configurar bot).                                         | xxx              |
-| Estudar e escolher as metodologias.                                                          | Todos            |
-| [Documento de visão](https://github.com/xxx/xxx.md)                                            | XXX e XXXXX      |
-| Elaborar[5w2H](https://github.com/xxx/xxx.md)                                                   | XXX e XXXXX      |
-| [Mapas Mentais](https://github.com/xxx/xxx.md)                                                  | XXX e XXXXX      |
-| [Brainstorming](https://github.com/UnBArqDsw/2020.1_G7_TCM/blob/master/docs/base/Brainstorm.md) | Todos            |
-| [Entrevistas](https://github.com/xxx/xxx.md)                                                    | XXX e XXXXX      |
-| [Prototipação.](https://github.com/xxx/xxx.md)                                                | XXX e XXXXX      |
-
-## Sprint Retrospective/Review Meeting
-
-#### Presentes na reunião: XXXX
-
-### Dividas da Sprint
-
-### Riscos Encontrados
-
-- Nenhum: Plano de gerenciamento de riscos não implementado.
-
-### Pontos Positivos
-
-![pontos positivos](../assets/Sprints/S1-positivos.png)
-
-### Pontos Negativos
-
-![pontos negativos](../assets/Sprints/S1-negativos.png)
-
-### O que podemos melhorar?
-
-- Ter mais foco na reuniões para evitar o desperdício de tempo.
-- A equipe deve ter mais autonomia em relação à falta de membros.
-- Podemos utilizar algo ferramenta de timebox para maior efetividade nas reuniões, sugestão: https://timebox.cedrotech.com/
+|Adicionar ao Carrinho: Como usuário logado, quero poder adicionar um ou mais ingressos de um evento ao meu carrinho de compras.
+|Visualizar Carrinho: Como comprador, quero poder visualizar meu carrinho de compras a qualquer momento para ver os itens, quantidades e o total.
+|Remover do Carrinho: Como comprador, quero poder remover um item do meu carrinho de compras.
+|Finalizar Compra: Como comprador, quero clicar em "Finalizar Compra" e ser direcionado para o próximo passo (mesmo que seja uma simulação de pagamento inicialmente).
+|Integração de Pagamento (Mock): Integrar com um sistema de pagamento em modo de teste (mock) para simular uma transação bem-sucedida.                                                       | Todos            |
 
 ### Ferramentas utilizadas
 
