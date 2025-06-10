@@ -1,0 +1,311 @@
+/* ============================================= */
+/* ===== ESTILOS GLOBAIS E LAYOUT BASE       ===== */
+/* ============================================= */
+
+/*
+ * Reset universal para remover margens e paddings padrão
+ * e garantir que o tamanho dos elementos inclua bordas e preenchimento.
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*
+ * Estilos base do corpo da página.
+ * - Define a família de fontes, cor de fundo e cor do texto padrão.
+*/
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* ================== */
+/* ===== HEADER ===== */
+/* ================== */
+
+/*
+ * Container principal do cabeçalho.
+ * - display: flex; organiza os itens internos lado a lado.
+ * - justify-content: space-between; distribui os itens, alinhando-os às extremidades.
+ * - align-items: center; alinha verticalmente os itens no centro.
+ * - background: gradiente de cores para um visual moderno.
+ * - flex-wrap: wrap; permite que os itens quebrem para a próxima linha em telas menores.
+*/
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(90deg, #20C4C4, #FF3F7F);
+  padding: 15px 30px;
+  color: white;
+  flex-wrap: wrap;
+}
+
+.logo-img {
+  height: 50px;
+  border-radius: 15px;
+}
+
+/* --- Barra de Busca (dentro do Header) --- */
+.search-bar {
+  display: flex;
+  align-items: center;
+  max-width: 500px;
+  width: 100%;
+  background-color: white;
+  border-radius: 25px; /* Cria o formato de pílula */
+  overflow: hidden;    /* Garante que os cantos dos filhos não ultrapassem o border-radius */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.search-bar input[type="text"] {
+  border: none;
+  outline: none; /* Remove a borda de foco */
+  padding: 0.6rem 1rem;
+  flex-grow: 1; /* Faz o input ocupar o espaço disponível */
+  font-size: 1rem;
+  border-radius: 25px 0 0 25px; /* Arredonda somente os cantos da esquerda */
+}
+
+.search-bar button {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 0.6rem 1rem;
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 0 25px 25px 0; /* Arredonda somente os cantos da direita */
+  transition: background-color 0.3s ease;
+}
+
+.search-bar button:hover {
+  background-color: #c04600;
+}
+
+/* --- Ícones (dentro do Header) --- */
+.header-icons a {
+  color: white;
+  margin-left: 15px; /* Espaçamento entre os ícones */
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+.header-icons a:hover {
+  color: #e75e1e;
+}
+
+
+/* ================================== */
+/* ===== CONTEÚDO PRINCIPAL (MAIN) ===== */
+/* ================================== */
+
+/* Container geral da página de carrinho */
+.main {
+  padding: 30px;
+}
+
+/*
+ * Caixa principal que envolve os itens do carrinho e o total.
+ * - max-width: define uma largura máxima para o conteúdo.
+ * - margin: auto; centraliza o container na página.
+*/
+.container {
+  max-width: 900px;
+  margin: auto;
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container h2 {
+  margin-bottom: 25px;
+  color: #222;
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Espaço entre o ícone e o texto do título */
+}
+
+/* --- Itens do Carrinho --- */
+.cart-item {
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  background-color: #fafafa;
+}
+
+.cart-item p {
+  margin: 6px 0;
+  font-size: 0.95rem;
+}
+
+.btn-remove {
+  background-color: #dc6435;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-remove:hover {
+  /* SUGESTÃO: Escurecer a cor no hover para dar feedback visual */
+  background-color: #c25024;
+}
+
+/* --- Seção de Total e Finalização --- */
+.total {
+  text-align: right; /* Alinha o conteúdo (total e botão) à direita */
+  margin-top: 30px;
+}
+
+.total h3 {
+  margin-bottom: 15px;
+  font-size: 1.3rem;
+}
+
+.btn-finalizar {
+  background-color: #000000;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-finalizar:hover {
+  background-color: #2b2b2b; /* SUGESTÃO: Escurece levemente o preto */
+}
+
+/* --- Seção de Pagamento (OBS: Código parece ter botões duplicados) --- */
+.payment-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.payment-methods img {
+  height: 30px;
+  margin-right: 10px;
+}
+
+/* OBS: Você tem duas classes para finalizar: .btn-finalizar e .finalizar-btn.
+   O ideal é usar apenas uma para manter o código consistente.
+   Estou mantendo ambas como no original. */
+.finalizar-btn {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.finalizar-btn:hover {
+  background-color: #c04600;
+}
+
+/* ================================== */
+/* ===== ELEMENTOS DE NAVEGAÇÃO ===== */
+/* ================================== */
+
+/* Botão para voltar à página anterior/home */
+.back-to-home {
+  margin: 20px 30px;
+}
+
+.btn-voltar {
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.btn-voltar i {
+  margin-right: 5px;
+}
+
+.btn-voltar:hover {
+  text-decoration: underline;
+}
+
+/* ================= */
+/* ===== FOOTER ===== */
+/* ================= */
+
+footer {
+  background: #1E1E1E;
+  color: #ccc;
+  padding: 2rem;
+  font-size: 0.9rem;
+  margin-top: 3rem; /* Adicionado para garantir espaço do conteúdo */
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; /* Permite que as colunas se ajustem em telas menores */
+  gap: 2rem; /* Espaço entre as colunas do rodapé */
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-container div {
+  flex: 1; /* Faz as colunas dividirem o espaço igualmente */
+  min-width: 200px; /* Largura mínima para cada coluna antes de quebrar a linha */
+}
+
+.footer-container h4 {
+  color: white;
+  margin-bottom: 0.8rem;
+}
+
+.footer-container a {
+  color: #aaa;
+  text-decoration: none;
+  display: block; /* Faz com que cada link ocupe uma linha */
+  margin-bottom: 0.5rem;
+  transition: color 0.3s ease;
+}
+
+.footer-container a:hover {
+  color: #20C4C4;
+}
+
+/* ======================= */
+/* ===== RESPONSIVIDADE ===== */
+/* ======================= */
+
+/* Ajustes para telas com largura máxima de 768px (tablets e celulares) */
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column; /* Empilha os itens do header verticalmente */
+    align-items: flex-start; /* Alinha os itens à esquerda */
+  }
+
+  .search-bar {
+    width: 100%;
+    margin: 10px 0; /* Adiciona espaço vertical quando empilhado */
+  }
+
+  .main {
+    padding: 15px; /* Reduz o padding em telas menores */
+  }
+
+  .container {
+    padding: 20px;
+  }
+}

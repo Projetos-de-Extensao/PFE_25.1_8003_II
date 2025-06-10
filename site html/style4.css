@@ -1,0 +1,243 @@
+/* ------------------ RESET BÁSICO ------------------ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ------------------ ESTILO GERAL ------------------ */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9fb;
+  color: #333;
+  line-height: 1.6;
+  padding: 2rem;
+}
+
+/* ------------------ HEADER ------------------ */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(90deg, #20C4C4, #FF3F7F);
+  padding: 15px 30px;
+  color: white;
+  flex-wrap: wrap;
+}
+
+.logo-img {
+  height: 50px;
+  border-radius: 15px;
+}
+
+/* ------------------ CONTAINER PRINCIPAL ------------------ */
+.container {
+  max-width: 800px;
+  margin: auto;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+/* ------------------ TÍTULOS ------------------ */
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #1a1a1a;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+  color: #444;
+}
+
+/* Parágrafo introdutório */
+.container > p {
+  margin-bottom: 2rem;
+  color: #666;
+}
+
+/* ------------------ FORMULÁRIO ------------------ */
+.form-section {
+  margin-bottom: 2.5rem;
+}
+
+/* Labels e Inputs */
+label {
+  display: block;
+  margin: 0.75rem 0 0.25rem;
+  font-weight: 500;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+input[type="time"],
+select,
+textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  background-color: #fff;
+  transition: border 0.3s;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  border-color: #7b5aff;
+  outline: none;
+}
+
+/* Agrupamento de data e hora */
+.date-group {
+  display: flex;
+  gap: 1rem;
+}
+
+.date-group input {
+  flex: 1;
+}
+
+/* Cidade e estado lado a lado */
+.city-state {
+  display: flex;
+  gap: 1rem;
+}
+
+.city-state > div {
+  flex: 1;
+}
+
+/* Botão de adicionar ingresso */
+.add-ticket {
+  margin-top: 1rem;
+  background-color: #eef2ff;
+  border: 1px dashed #7b5aff;
+  color: #7b5aff;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.add-ticket:hover {
+  background-color: #dcd7ff;
+}
+
+/* Área de upload de imagem/arquivo */
+.upload-box {
+  border: 2px dashed #ccc;
+  padding: 2rem;
+  text-align: center;
+  color: #777;
+  border-radius: 10px;
+  background-color: #fafafa;
+  cursor: pointer;
+  transition: border-color 0.3s, background-color 0.3s;
+}
+
+.upload-box:hover {
+  border-color: #7b5aff;
+}
+
+/* ------------------ BOTÃO DE ENVIO ------------------ */
+.submit-btn {
+  display: block;
+  margin: 2rem auto 0 auto;
+  padding: 1rem 2rem;
+  background: linear-gradient(135deg, #4e73df, #1cc88a);
+  color: white;
+  border: none;
+  border-radius: 50px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.submit-btn:hover {
+  background: linear-gradient(135deg, #3a5fcf, #17a673);
+  transform: translateY(-2px);
+  box-shadow: 0 10px 18px rgba(0, 0, 0, 0.15);
+}
+
+/* ------------------ VOLTAR AO INÍCIO ------------------ */
+.back-to-home {
+  margin: 20px 30px;
+}
+
+.btn-voltar {
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn-voltar i {
+  margin-right: 5px;
+}
+
+.btn-voltar:hover {
+  text-decoration: underline;
+}
+
+/* ------------------ FOOTER ------------------ */
+footer {
+  background: #1E1E1E;
+  color: #ccc;
+  padding: 2rem;
+  font-size: 0.9rem;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-container div {
+  flex: 1;
+  min-width: 200px;
+}
+
+.footer-container h4 {
+  color: white;
+  margin-bottom: 0.8rem;
+}
+
+.footer-container a {
+  color: #aaa;
+  text-decoration: none;
+}
+
+.footer-container a:hover {
+  color: #20C4C4;
+}
+
+.social-icons a {
+  color: #ccc;
+  margin-right: 0.7rem;
+  font-size: 1.8rem;
+}
+
+.social-icons a:hover {
+  color: #FFCF00;
+  transform: scale(1.3);
+}
+
+.copyright {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 0.9rem;
+}

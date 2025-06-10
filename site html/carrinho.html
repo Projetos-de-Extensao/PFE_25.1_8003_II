@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho de Compras - Festify</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="logo">
+            <img src="festify.jpg" alt="Festify Logo" class="logo-img">
+        </div>
+
+        <div class="header-icons">
+            <a href="carrinho.html" title="Carrinho"><i class="fas fa-shopping-cart"></i></a>
+            <a href="#localizacao" title="Localização"><i class="fas fa-location-dot"></i></a>
+        </div>
+    </header>
+
+    <div class="back-to-home">
+        <a href="index.html" class="btn-voltar"><i class="fas fa-arrow-left"></i> Voltar para o início</a>
+    </div>
+
+    <main class="main">
+        <div class="container">
+            <h2><i class="fas fa-shopping-cart"></i> Carrinho de Compras</h2>
+
+            <div class="cart-item">
+                <p><strong>Show: Evento 1</strong></p>
+                <p>Data: 20/07/2025</p>
+                <p>Qtd: 2 ingressos</p>
+                <p>Preço: R$ 200,00</p>
+                <button class="btn-remove">Remover</button>
+            </div>
+
+            <div class="cart-item">
+                <p><strong>Festa: Evento 2</strong></p>
+                <p>Data: 05/08/2025</p>
+                <p>Qtd: 1 ingresso</p>
+                <p>Preço: R$ 120,00</p>
+                <button class="btn-remove">Remover</button>
+            </div>
+
+            <h4 class="payment-title">Formas de Pagamento:</h4>
+            <div class="payment-section">
+                <div class="payment-methods">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/Visa.svg" alt="Visa">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/Mastercard-logo.png" alt="Mastercard">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Hipercard_logo.svg" alt="Hipercard">
+                    <img src="pix.png" alt="Pix">
+                </div>
+
+                <div class="total">
+                    <h3>Total: R$ 320,00</h3>
+                    <button class="btn-finalizar">Finalizar Compra</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+     <footer>
+    <div class="footer-container">
+      <div>
+        <h4>Institucional</h4>
+        <ul>
+          <li><a href="#">Quem somos</a></li>
+          <li><a href="#">Trabalhe conosco</a></li>
+          <li><a href="#">Termos de uso</a></li>
+          <li><a href="#">Política de privacidade</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Ajuda</h4>
+        <ul>
+          <li><a href="#">Central de atendimento</a></li>
+          <li><a href="#">Entregas e prazos</a></li>
+          <li><a href="#">Trocas e devoluções</a></li>
+          <li><a href="#">Fale conosco</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contato</h4>
+        <p><i class="fas fa-envelope"></i> suportefestify@gmail.com</p>
+        <p><i class="fas fa-phone"></i> (21) 2199-0876</p>
+        <p><i class="fas fa-map-marker-alt"></i> Rua Exemplo, 123 - RJ</p>
+      </div>
+      <div>
+        <h4>Redes sociais</h4>
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+    </div>
+    <p class="copyright">
+      &copy; 2025 Festify. Todos os direitos reservados.
+    </p>
+  </footer>
+    
+    
+    <script>
+        // Remover itens do carrinho
+        document.querySelectorAll('.btn-remove').forEach(button => {
+            button.addEventListener('click', function () {
+                this.closest('.cart-item').remove();
+                alert("Item removido do carrinho!");
+            });
+        });
+
+        // Finalizar compra
+        document.querySelector('.btn-finalizar')?.addEventListener('click', () => {
+            alert('Compra finalizada com sucesso! Obrigado por escolher o Festify!');
+        });
+    </script>
+</body>
+</html>
