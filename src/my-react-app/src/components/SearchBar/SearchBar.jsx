@@ -1,6 +1,6 @@
  
 import { Link } from 'react-router-dom';
-import './SearchBar.css'; // Import the CSS file for styling
+import './SearchBar.css'; 
 
 
 function SearchBar() {
