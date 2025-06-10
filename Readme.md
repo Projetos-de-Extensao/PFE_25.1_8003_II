@@ -92,8 +92,6 @@ Clique no evento para ver os detalhes e comprar.
 Cadastre-se para uma experiência mais fluida.
 Assine a newsletter para receber promoções.
 
-## Vídeo
-Adicione 1 ou mais vídeos com a execução do projeto final.
 
-## Outros 
-Quaisquer outras informações sobre seu projeto podem ser descritas abaixo..
+
+
