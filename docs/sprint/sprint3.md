@@ -50,5 +50,5 @@ title: Sprint 3
 
 ### Ferramentas utilizadas
 
-- Reunião:Meet
-- Colheita dos pontos: [Mentimeter](https://www.mentimeter.com/)
+- Reunião: Encontro Virtual
+- Colheita dos pontos: [Discord](https://discord.com/)

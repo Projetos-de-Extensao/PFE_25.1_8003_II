@@ -50,5 +50,5 @@ title: Sprint 6
 
 ### Ferramentas utilizadas
 
-- Reunião: [M](https://hangouts.google.com/)eet
-- Colheita dos pontos: [Mentimeter](https://www.mentimeter.com/)
+- Reunião: Encontro Virtual
+- Colheita dos pontos: [Discord](https://discord.com/))
