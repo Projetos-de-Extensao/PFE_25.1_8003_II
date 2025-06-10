@@ -4,49 +4,81 @@
       "id": 1,
       "name": "Concert",
       "date": "2023-10-01",
-      "location": "Stadium A"
+      "location": "Stadium A",
+      "description": "A live music concert featuring popular bands.",
+      "price": 50.0,
+      "time": "20:00",
+      "category": "Music"
     },
     {
       "id": 2,
       "name": "Art Exhibition",
       "date": "2023-10-05",
-      "location": "Gallery B"
+      "location": "Gallery B",
+      "description": "Exhibition showcasing contemporary artworks.",
+      "price": 20.0,
+      "time": "18:00",
+      "category": "Art"
     },
     {
       "id": 3,
       "name": "Tech Conference",
       "date": "2023-10-10",
-      "location": "Convention Center C"
+      "location": "Convention Center C",
+      "description": "Conference on the latest technology trends.",
+      "price": 100.0,
+      "time": "09:00",
+      "category": "Technology"
     },
     {
       "id": 4,
       "name": "Festival de Teatro",
       "date": "2023-10-15",
-      "location": "Teatro Municipal"
+      "location": "Teatro Municipal",
+      "description": "Festival com diversas peças teatrais.",
+      "price": 30.0,
+      "time": "19:30",
+      "category": "Teatro"
     },
     {
       "id": 5,
       "name": "Feira de Livros",
       "date": "2023-10-20",
-      "location": "Praça Central"
+      "location": "Praça Central",
+      "description": "Feira com venda e troca de livros.",
+      "price": 0.0,
+      "time": "10:00",
+      "category": "Literatura"
     },
     {
       "id": 6,
       "name": "Show de Stand-up",
       "date": "2023-10-22",
-      "location": "Comedy Club"
+      "location": "Comedy Club",
+      "description": "Apresentação de stand-up comedy com humoristas locais.",
+      "price": 25.0,
+      "time": "21:00",
+      "category": "Comédia"
     },
     {
       "id": 7,
       "name": "Workshop de Fotografia",
       "date": "2023-10-25",
-      "location": "Espaço Cultural"
+      "location": "Espaço Cultural",
+      "description": "Oficina prática de técnicas fotográficas.",
+      "price": 40.0,
+      "time": "14:00",
+      "category": "Workshop"
     },
     {
       "id": 8,
       "name": "Festival Gastronômico",
       "date": "2023-10-28",
-      "location": "Parque da Cidade"
+      "location": "Parque da Cidade",
+      "description": "Festival com comidas típicas e food trucks.",
+      "price": 10.0,
+      "time": "12:00",
+      "category": "Gastronomia"
     }
   ]
 }
