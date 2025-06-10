@@ -39,9 +39,10 @@ function ExplorarPage() {
                                 event.location.toLowerCase().includes(searchTerm.toLowerCase());
 
       
+      const matchesCategory = category ? event.name === category : true;
+
       
-      
-      return matchesSearchTerm; 
+      return matchesSearchTerm && matchesCategory; 
     });
   }, [events, searchTerm, category]);
 
